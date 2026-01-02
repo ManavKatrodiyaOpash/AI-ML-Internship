@@ -1,0 +1,4 @@
+Python
+VS Code
+VirtualEnv
+Pip
