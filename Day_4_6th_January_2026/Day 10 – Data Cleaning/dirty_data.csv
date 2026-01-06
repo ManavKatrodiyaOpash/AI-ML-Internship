@@ -1,0 +1,11 @@
+Employee_ID,Department,Priority_Level,Salary,Experience_Years
+101.0,Sales,Low,50000.0,2
+102.0,IT,High,120000.0,10
+,IT,Medium,85000.0,5
+104.0,HR,Low,45000.0,1
+105.0,Sales,High,,8
+106.0,Marketing,Low,60000.0,3
+107.0,HR,Medium,55000.0,4
+108.0,IT,High,110000.0,9
+,Sales,Low,48000.0,2
+110.0,Marketing,Medium,,6

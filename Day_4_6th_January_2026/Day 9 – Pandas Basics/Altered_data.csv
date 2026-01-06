@@ -1,0 +1,11 @@
+Transaction_ID,Category,Sales,Region,Profit,Boolean,Profit_Margin
+101,Electronics,250,North,50,No,0.2
+102,Furniture,450,South,100,No,0.2222222222222222
+103,Electronics,150,East,-20,No,-0.13333333333333333
+104,Office,80,West,10,No,0.125
+105,Furniture,700,North,150,Yes,0.21428571428571427
+106,Electronics,1200,East,300,No,0.25
+107,Office,300,South,60,No,0.2
+108,Furniture,450,West,90,No,0.2
+109,Office,50,North,5,No,0.1
+110,Electronics,900,East,200,No,0.2222222222222222
