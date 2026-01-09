@@ -1,0 +1,501 @@
+PassengerID,Name,FamilyName,Age,Gender,City,Salary,Married,Children,Education,Purchased
+1,Amit,Khan,74.0,Male,Delhi,105000.0,Yes,2.0,Post-Graduate,1
+2,Emma,Khan,17.0,Female,Delhi,85000.0,Yes,1.0,High School,0
+3,Rahul,Smith,69.0,Male,New York,115000.0,Unknown,4.0,unknown,1
+4,Amit,Sharma,34.0,Male,unknown,105000.0,Yes,4.0,Graduate,1
+5,Bob,Patel,6.0,Male,Delhi,65000.0,Unknown,2.0,unknown,1
+6,Sara,Smith,53.0,Female,London,140000.0,Yes,0.0,Graduate,0
+7,Rahul,Patel,66.0,unknown,London,25000.0,No,2.0,unknown,1
+8,Rahul,Brown,77.0,Male,Delhi,140000.0,Yes,2.0,Post-Graduate,1
+9,Amit,Patel,43.0,Female,unknown,125000.0,No,0.0,unknown,0
+10,Alice,Sharma,75.0,Female,unknown,20000.0,Yes,2.0,unknown,0
+11,Bob,Brown,23.0,Female,New York,35000.0,Unknown,0.0,unknown,1
+12,Amit,Patel,55.0,Male,London,85000.0,Unknown,2.0,Post-Graduate,1
+13,Bob,Brown,38.0,Male,unknown,20000.0,Unknown,3.0,Graduate,1
+14,Bob,Patel,75.0,Female,Delhi,85000.0,No,4.0,Graduate,0
+15,Sara,Sharma,16.0,Male,unknown,95000.0,Yes,2.0,High School,0
+16,Rahul,Patel,8.0,Male,Mumbai,125000.0,Unknown,2.0,Graduate,0
+17,Emma,Patel,4.0,Male,London,85000.0,No,1.0,unknown,0
+18,Sara,Patel,4.0,unknown,Delhi,115000.0,Unknown,3.0,unknown,1
+19,Sara,Smith,56.0,Male,New York,30000.0,No,2.0,unknown,0
+20,Bob,Smith,25.0,Female,unknown,30000.0,No,4.0,unknown,0
+21,Priya,Smith,67.0,Male,Delhi,60000.0,No,2.0,Post-Graduate,0
+22,Rahul,Sharma,67.0,Female,New York,45000.0,No,0.0,Graduate,1
+23,Alice,Brown,27.0,Female,unknown,140000.0,Yes,4.0,unknown,1
+24,Sara,Khan,32.0,unknown,unknown,80000.0,Yes,2.0,Post-Graduate,0
+25,Emma,Patel,50.0,Male,Delhi,120000.0,Yes,1.0,High School,0
+26,Priya,Patel,61.0,Male,unknown,25000.0,No,2.0,unknown,1
+27,Priya,Sharma,51.0,Male,unknown,55000.0,Yes,3.0,unknown,1
+28,Alice,Patel,19.0,Male,unknown,120000.0,No,3.0,unknown,1
+29,Sara,Smith,21.0,Male,unknown,25000.0,No,1.0,unknown,1
+30,Emma,Khan,5.0,unknown,Mumbai,35000.0,No,2.0,unknown,1
+31,Rahul,Johnson,38.0,Male,unknown,140000.0,Yes,2.0,Graduate,1
+32,John,Patel,42.0,Female,unknown,90000.0,No,3.0,unknown,1
+33,Emma,Smith,61.0,Male,New York,35000.0,Yes,3.0,unknown,1
+34,Alice,Johnson,22.0,Male,unknown,80000.0,No,2.0,unknown,0
+35,Priya,Khan,21.0,Male,unknown,85000.0,Unknown,0.0,High School,0
+36,Rahul,Johnson,70.0,Female,Mumbai,75000.0,No,2.0,High School,0
+37,Emma,Smith,1.0,unknown,New York,85000.0,No,2.0,unknown,0
+38,John,Brown,5.0,Female,Delhi,80000.0,No,2.0,Graduate,0
+39,John,Brown,12.0,Female,unknown,85000.0,Yes,1.0,Graduate,0
+40,Bob,Johnson,46.0,Male,Mumbai,115000.0,No,2.0,Post-Graduate,1
+41,Bob,Sharma,34.0,Female,London,105000.0,No,0.0,unknown,1
+42,Amit,Johnson,49.0,Female,Mumbai,85000.0,No,2.0,unknown,0
+43,Alice,Patel,78.0,Male,Mumbai,45000.0,Yes,3.0,unknown,0
+44,Sara,Patel,45.0,unknown,New York,70000.0,Unknown,3.0,Post-Graduate,1
+45,Emma,Brown,27.0,Female,Delhi,25000.0,No,0.0,unknown,1
+46,Emma,Sharma,73.0,Male,London,85000.0,Yes,2.0,unknown,1
+47,Sara,Smith,26.0,Male,unknown,130000.0,Unknown,1.0,Post-Graduate,0
+48,Amit,Patel,47.0,Male,unknown,110000.0,No,3.0,Graduate,1
+49,Priya,Brown,56.0,unknown,Mumbai,110000.0,Yes,4.0,unknown,0
+50,Priya,Khan,63.0,Male,New York,40000.0,No,2.0,Post-Graduate,0
+51,Amit,Brown,48.0,Female,New York,110000.0,No,3.0,High School,1
+52,Priya,Patel,61.0,Male,unknown,25000.0,No,4.0,Graduate,1
+53,Bob,Patel,38.0,Male,London,65000.0,Yes,0.0,High School,0
+54,Emma,Brown,26.0,Female,Delhi,140000.0,Yes,0.0,Graduate,1
+55,Amit,Smith,36.0,Male,London,25000.0,Unknown,2.0,unknown,1
+56,Emma,Johnson,1.0,unknown,unknown,70000.0,No,3.0,unknown,0
+57,Sara,Patel,8.0,Male,unknown,105000.0,No,2.0,unknown,1
+58,John,Brown,52.0,unknown,Delhi,135000.0,Yes,4.0,High School,0
+59,Bob,Brown,79.0,Male,unknown,90000.0,Yes,1.0,Graduate,0
+60,Rahul,Sharma,47.0,Female,Delhi,60000.0,No,3.0,unknown,1
+61,Bob,Johnson,56.0,Male,New York,130000.0,Yes,1.0,Post-Graduate,0
+62,Amit,Khan,14.0,Female,unknown,110000.0,No,3.0,unknown,0
+63,Rahul,Smith,28.0,Male,Mumbai,60000.0,Unknown,2.0,Post-Graduate,1
+64,John,Khan,78.0,Female,Mumbai,30000.0,No,2.0,Graduate,1
+65,Amit,Johnson,2.0,Male,unknown,120000.0,No,2.0,unknown,1
+66,Alice,Johnson,26.0,unknown,New York,60000.0,No,2.0,unknown,0
+67,Emma,Johnson,14.0,Female,London,85000.0,Yes,2.0,Graduate,0
+68,John,Khan,59.0,Female,New York,85000.0,Unknown,2.0,unknown,1
+69,Emma,Johnson,56.0,Male,Mumbai,110000.0,No,2.0,Post-Graduate,0
+70,Priya,Brown,7.0,Female,Mumbai,50000.0,Unknown,0.0,unknown,1
+71,Alice,Khan,3.0,unknown,unknown,95000.0,No,0.0,High School,1
+72,Alice,Johnson,23.0,Female,New York,95000.0,Unknown,2.0,unknown,0
+73,John,Brown,18.0,unknown,New York,85000.0,Yes,4.0,Post-Graduate,1
+74,Alice,Sharma,38.0,Male,Mumbai,20000.0,No,1.0,High School,0
+75,Rahul,Johnson,15.0,Male,London,35000.0,Unknown,3.0,Graduate,0
+76,Alice,Khan,64.0,Female,unknown,35000.0,Yes,3.0,Post-Graduate,1
+77,Emma,Patel,28.0,Male,unknown,50000.0,Yes,2.0,unknown,0
+78,Emma,Johnson,74.0,unknown,New York,55000.0,Yes,0.0,unknown,1
+79,Amit,Patel,39.0,Female,unknown,100000.0,Yes,2.0,Graduate,0
+80,Emma,Brown,57.0,Female,Mumbai,40000.0,Unknown,3.0,Graduate,0
+81,Amit,Sharma,17.0,Male,Mumbai,50000.0,No,0.0,Post-Graduate,0
+82,Emma,Smith,44.0,Female,New York,85000.0,Yes,4.0,unknown,1
+83,Rahul,Sharma,25.0,Male,New York,115000.0,Unknown,1.0,Graduate,0
+84,Sara,Johnson,17.0,Female,unknown,115000.0,Yes,4.0,unknown,1
+85,Amit,Patel,13.0,Male,New York,35000.0,Yes,2.0,High School,0
+86,Bob,Patel,25.0,Male,London,85000.0,No,2.0,unknown,0
+87,Priya,Khan,68.0,Female,unknown,45000.0,Unknown,2.0,unknown,1
+88,John,Patel,10.0,Female,New York,50000.0,No,2.0,unknown,1
+89,Emma,Khan,67.0,unknown,Delhi,105000.0,No,4.0,unknown,1
+90,Alice,Brown,18.0,Female,unknown,40000.0,Yes,3.0,High School,1
+91,Sara,Smith,34.0,Male,Delhi,115000.0,Yes,1.0,Graduate,1
+92,Emma,Johnson,8.0,unknown,Mumbai,30000.0,Yes,2.0,High School,0
+93,Alice,Khan,40.0,Male,unknown,50000.0,Unknown,2.0,Graduate,0
+94,Priya,Smith,42.0,Female,New York,85000.0,Unknown,2.0,Graduate,1
+95,Priya,Patel,41.0,Female,Delhi,85000.0,No,2.0,unknown,0
+96,Priya,Patel,6.0,Male,unknown,125000.0,No,2.0,High School,0
+97,Alice,Smith,52.0,Female,Mumbai,85000.0,No,1.0,unknown,0
+98,Emma,Patel,26.0,unknown,London,50000.0,Yes,2.0,High School,1
+99,Priya,Brown,64.0,Male,unknown,40000.0,Yes,1.0,unknown,0
+100,Rahul,Brown,59.0,unknown,unknown,125000.0,Yes,2.0,Graduate,0
+101,Amit,Smith,56.0,Female,unknown,40000.0,Yes,2.0,unknown,0
+102,Alice,Khan,59.0,Male,London,130000.0,No,4.0,Post-Graduate,1
+103,Alice,Khan,70.0,unknown,unknown,25000.0,No,2.0,Post-Graduate,0
+104,Emma,Smith,33.0,Female,Mumbai,85000.0,Yes,4.0,unknown,0
+105,Alice,Khan,53.0,Female,Mumbai,120000.0,No,2.0,unknown,1
+106,Alice,Khan,22.0,Female,London,125000.0,Unknown,1.0,unknown,1
+107,Priya,Brown,21.0,Male,unknown,45000.0,Unknown,4.0,unknown,0
+108,Emma,Khan,70.0,Female,New York,90000.0,No,1.0,Post-Graduate,0
+109,Priya,Sharma,70.0,Female,Delhi,120000.0,Yes,4.0,unknown,1
+110,Amit,Johnson,4.0,Male,New York,65000.0,No,4.0,Post-Graduate,1
+111,Sara,Patel,75.0,unknown,unknown,130000.0,No,1.0,Graduate,1
+112,Amit,Sharma,62.0,unknown,Delhi,145000.0,No,3.0,unknown,1
+113,Sara,Khan,62.0,Female,London,135000.0,Yes,4.0,unknown,1
+114,Priya,Brown,24.0,Male,London,50000.0,Unknown,2.0,Post-Graduate,1
+115,Amit,Smith,55.0,Male,unknown,40000.0,No,2.0,High School,1
+116,Emma,Khan,9.0,Female,Delhi,20000.0,No,2.0,unknown,0
+117,John,Brown,3.0,unknown,Mumbai,80000.0,Yes,3.0,Graduate,1
+118,Priya,Johnson,31.0,Male,Delhi,120000.0,No,1.0,Graduate,1
+119,Sara,Khan,40.0,unknown,unknown,145000.0,Yes,3.0,High School,0
+120,Rahul,Smith,36.0,unknown,Mumbai,105000.0,Yes,0.0,Post-Graduate,1
+121,Sara,Brown,24.0,Female,London,80000.0,Yes,0.0,unknown,1
+122,Rahul,Brown,6.0,Male,Delhi,120000.0,Unknown,4.0,Post-Graduate,0
+123,Alice,Brown,66.0,Female,New York,120000.0,No,4.0,Graduate,1
+124,Amit,Johnson,75.0,Male,unknown,105000.0,No,2.0,Post-Graduate,0
+125,Rahul,Khan,4.0,Female,New York,40000.0,No,2.0,Graduate,0
+126,Sara,Johnson,79.0,Male,unknown,80000.0,No,2.0,Post-Graduate,0
+127,Alice,Patel,6.0,Female,unknown,35000.0,Unknown,3.0,High School,0
+128,John,Patel,51.0,unknown,New York,100000.0,No,0.0,unknown,1
+129,Emma,Khan,62.0,Male,Delhi,30000.0,No,4.0,High School,0
+130,Emma,Johnson,57.0,Male,Delhi,100000.0,Yes,2.0,High School,0
+131,Emma,Smith,66.0,Male,New York,85000.0,Unknown,3.0,unknown,1
+132,Rahul,Brown,79.0,unknown,Delhi,70000.0,Yes,4.0,unknown,0
+133,John,Brown,75.0,Female,unknown,120000.0,No,4.0,unknown,0
+134,Rahul,Khan,8.0,Female,Mumbai,115000.0,No,0.0,unknown,0
+135,Amit,Patel,26.0,Female,unknown,130000.0,No,0.0,High School,0
+136,Rahul,Patel,51.0,unknown,unknown,120000.0,Yes,4.0,High School,1
+137,John,Brown,45.0,Male,unknown,145000.0,No,1.0,Graduate,0
+138,John,Khan,44.0,Male,unknown,35000.0,Yes,4.0,Graduate,1
+139,Amit,Johnson,5.0,unknown,Delhi,25000.0,Yes,2.0,unknown,1
+140,John,Patel,70.0,Male,Mumbai,115000.0,No,4.0,unknown,0
+141,Sara,Johnson,26.0,Male,Delhi,95000.0,Yes,2.0,Graduate,0
+142,John,Patel,68.0,Male,London,85000.0,No,2.0,Graduate,0
+143,Emma,Patel,19.0,Female,Delhi,105000.0,No,2.0,Post-Graduate,0
+144,Sara,Sharma,20.0,Female,unknown,55000.0,Yes,2.0,Post-Graduate,1
+145,Sara,Patel,12.0,Male,Delhi,30000.0,No,1.0,Graduate,1
+146,Amit,Smith,47.0,Female,Delhi,60000.0,Yes,1.0,Post-Graduate,1
+147,Bob,Khan,1.0,unknown,Mumbai,115000.0,Yes,4.0,unknown,0
+148,Bob,Khan,14.0,unknown,Delhi,45000.0,No,2.0,unknown,1
+149,John,Johnson,64.0,unknown,Mumbai,65000.0,Yes,1.0,unknown,0
+150,Sara,Patel,38.0,Male,New York,120000.0,Yes,0.0,Graduate,0
+151,Bob,Smith,37.0,Female,London,65000.0,Unknown,4.0,High School,0
+152,Bob,Johnson,11.0,Male,Mumbai,80000.0,Yes,2.0,Graduate,0
+153,John,Sharma,77.0,unknown,unknown,100000.0,Yes,2.0,Post-Graduate,0
+154,Bob,Johnson,3.0,Female,New York,60000.0,No,3.0,High School,1
+155,Rahul,Johnson,33.0,Male,Mumbai,100000.0,No,4.0,Post-Graduate,1
+156,Alice,Patel,6.0,Female,Mumbai,135000.0,No,3.0,unknown,0
+157,Amit,Sharma,50.0,Female,London,60000.0,No,2.0,Post-Graduate,1
+158,Alice,Johnson,10.0,Male,unknown,60000.0,Yes,2.0,unknown,0
+159,John,Smith,5.0,Female,unknown,20000.0,No,3.0,unknown,0
+160,Emma,Smith,23.0,unknown,unknown,25000.0,Unknown,2.0,Post-Graduate,0
+161,Amit,Khan,10.0,unknown,Mumbai,85000.0,Unknown,0.0,Post-Graduate,1
+162,John,Sharma,44.0,Male,Delhi,95000.0,Yes,3.0,unknown,0
+163,Sara,Sharma,2.0,unknown,unknown,20000.0,No,2.0,High School,0
+164,Emma,Khan,13.0,Female,New York,65000.0,No,4.0,unknown,1
+165,Alice,Johnson,40.0,Male,Delhi,105000.0,No,2.0,unknown,1
+166,John,Sharma,2.0,Female,Delhi,145000.0,No,4.0,unknown,1
+167,Sara,Smith,65.0,Male,unknown,85000.0,No,2.0,High School,0
+168,Amit,Smith,63.0,Female,Mumbai,55000.0,No,1.0,unknown,0
+169,Amit,Patel,73.0,Male,Mumbai,120000.0,Yes,2.0,Graduate,1
+170,Priya,Sharma,17.0,Male,Mumbai,85000.0,Unknown,3.0,Graduate,0
+171,Sara,Johnson,9.0,Female,Mumbai,70000.0,Yes,2.0,High School,1
+172,Rahul,Khan,75.0,Male,unknown,130000.0,Yes,4.0,unknown,1
+173,Bob,Khan,15.0,unknown,Mumbai,25000.0,No,0.0,Post-Graduate,0
+174,Emma,Johnson,24.0,unknown,unknown,55000.0,Yes,2.0,High School,0
+175,Sara,Brown,38.0,Male,unknown,85000.0,Yes,3.0,unknown,1
+176,Priya,Patel,35.0,Male,Mumbai,125000.0,No,1.0,unknown,1
+177,Bob,Khan,49.0,Male,London,55000.0,Yes,2.0,Graduate,1
+178,Bob,Sharma,69.0,Female,New York,100000.0,Unknown,0.0,unknown,1
+179,John,Patel,62.0,Female,Delhi,90000.0,No,1.0,High School,0
+180,Bob,Sharma,60.0,Male,unknown,100000.0,Yes,2.0,unknown,1
+181,Rahul,Smith,50.0,unknown,unknown,85000.0,Unknown,4.0,High School,1
+182,Amit,Patel,78.0,Male,unknown,130000.0,No,2.0,Post-Graduate,1
+183,Priya,Khan,75.0,Female,New York,135000.0,Yes,4.0,Graduate,0
+184,Bob,Patel,9.0,Male,unknown,80000.0,Yes,3.0,unknown,0
+185,John,Patel,34.0,Female,London,110000.0,No,4.0,High School,1
+186,Rahul,Patel,76.0,Female,unknown,40000.0,Yes,0.0,unknown,0
+187,Alice,Brown,35.0,Male,Delhi,75000.0,Yes,4.0,Graduate,0
+188,Amit,Patel,1.0,Male,Delhi,20000.0,Unknown,3.0,Post-Graduate,0
+189,Amit,Sharma,40.0,Male,unknown,130000.0,Unknown,2.0,High School,1
+190,Priya,Smith,64.0,unknown,Mumbai,40000.0,Unknown,2.0,Post-Graduate,1
+191,Amit,Johnson,22.0,unknown,London,55000.0,Unknown,2.0,Post-Graduate,0
+192,Bob,Patel,60.0,Male,unknown,80000.0,No,2.0,unknown,1
+193,John,Khan,64.0,Male,London,55000.0,No,4.0,unknown,1
+194,Amit,Patel,72.0,Female,Mumbai,140000.0,No,1.0,High School,0
+195,Amit,Khan,11.0,unknown,unknown,130000.0,No,2.0,unknown,0
+196,Alice,Sharma,14.0,Female,unknown,70000.0,Yes,2.0,High School,1
+197,Alice,Khan,60.0,Male,Mumbai,20000.0,Yes,4.0,unknown,0
+198,Emma,Johnson,30.0,Male,unknown,80000.0,Unknown,2.0,Post-Graduate,1
+199,Rahul,Smith,35.0,Male,Mumbai,110000.0,Yes,3.0,Graduate,1
+200,Bob,Khan,37.0,Male,New York,135000.0,Yes,2.0,High School,0
+201,Amit,Khan,5.0,Female,Delhi,30000.0,Yes,4.0,High School,1
+202,Sara,Smith,78.0,unknown,unknown,135000.0,No,2.0,unknown,1
+203,Amit,Johnson,26.0,Male,London,100000.0,Yes,2.0,Post-Graduate,0
+204,John,Patel,62.0,Male,New York,40000.0,No,2.0,Post-Graduate,0
+205,Emma,Khan,4.0,Male,unknown,115000.0,No,3.0,unknown,0
+206,Rahul,Smith,42.0,Female,Mumbai,120000.0,No,4.0,Post-Graduate,1
+207,Sara,Sharma,18.0,Female,Mumbai,55000.0,Unknown,0.0,unknown,0
+208,Emma,Smith,40.0,Female,Mumbai,145000.0,Yes,3.0,Graduate,0
+209,Priya,Sharma,72.0,Male,Mumbai,85000.0,Unknown,0.0,High School,0
+210,Rahul,Johnson,39.0,Male,London,35000.0,No,2.0,Graduate,0
+211,Amit,Patel,14.0,unknown,New York,70000.0,Unknown,1.0,High School,1
+212,Amit,Smith,32.0,Male,unknown,115000.0,Yes,3.0,unknown,1
+213,Rahul,Brown,51.0,Male,Delhi,90000.0,No,2.0,Post-Graduate,0
+214,Amit,Khan,38.0,Female,London,110000.0,No,0.0,unknown,1
+215,Bob,Johnson,23.0,Female,London,50000.0,Yes,2.0,unknown,0
+216,Rahul,Smith,63.0,Male,unknown,110000.0,No,2.0,Graduate,0
+217,Emma,Khan,15.0,unknown,unknown,85000.0,No,1.0,unknown,1
+218,Rahul,Smith,25.0,Female,Delhi,110000.0,Yes,3.0,Post-Graduate,1
+219,Sara,Sharma,17.0,Female,Delhi,70000.0,Yes,3.0,unknown,0
+220,Amit,Smith,66.0,unknown,unknown,145000.0,No,3.0,unknown,0
+221,Bob,Brown,78.0,Female,Mumbai,40000.0,No,2.0,unknown,1
+222,Bob,Smith,53.0,unknown,London,40000.0,No,2.0,unknown,0
+223,Priya,Smith,51.0,Female,unknown,125000.0,Yes,2.0,Post-Graduate,1
+224,Emma,Brown,39.0,unknown,Delhi,55000.0,Unknown,1.0,High School,0
+225,Alice,Johnson,51.0,unknown,Delhi,65000.0,No,3.0,unknown,0
+226,Alice,Smith,70.0,Male,unknown,45000.0,Yes,2.0,Post-Graduate,1
+227,Rahul,Brown,6.0,Female,New York,90000.0,No,2.0,unknown,1
+228,Priya,Khan,67.0,unknown,unknown,95000.0,No,0.0,Post-Graduate,1
+229,John,Sharma,7.0,unknown,unknown,85000.0,No,2.0,High School,1
+230,Rahul,Sharma,51.0,Male,Delhi,100000.0,Unknown,2.0,unknown,1
+231,Priya,Smith,72.0,Female,Mumbai,55000.0,No,2.0,High School,1
+232,Emma,Johnson,42.0,Male,New York,55000.0,No,2.0,Graduate,1
+233,Emma,Johnson,64.0,Female,unknown,140000.0,Yes,2.0,unknown,0
+234,Emma,Khan,15.0,Male,Delhi,60000.0,Unknown,0.0,High School,0
+235,Emma,Smith,29.0,unknown,unknown,25000.0,Yes,2.0,unknown,0
+236,Emma,Sharma,33.0,unknown,New York,90000.0,No,1.0,unknown,1
+237,Priya,Johnson,27.0,Male,New York,105000.0,No,0.0,unknown,1
+238,Priya,Smith,36.0,Male,London,30000.0,Yes,2.0,Post-Graduate,1
+239,Bob,Johnson,29.0,Female,unknown,100000.0,Yes,4.0,unknown,0
+240,Sara,Brown,38.0,Male,unknown,35000.0,No,2.0,Graduate,1
+241,Alice,Johnson,57.0,Male,Delhi,35000.0,No,2.0,High School,1
+242,Amit,Sharma,27.0,Male,New York,85000.0,Yes,1.0,Post-Graduate,0
+243,Emma,Patel,55.0,Male,London,60000.0,Yes,3.0,High School,1
+244,John,Khan,33.0,unknown,London,60000.0,Yes,2.0,Graduate,0
+245,Amit,Khan,68.0,Male,unknown,140000.0,Unknown,2.0,Graduate,0
+246,Priya,Sharma,66.0,unknown,unknown,145000.0,No,2.0,unknown,1
+247,John,Johnson,10.0,Male,London,130000.0,Yes,2.0,Graduate,1
+248,John,Smith,5.0,unknown,unknown,105000.0,Yes,3.0,High School,1
+249,John,Johnson,74.0,Female,New York,65000.0,Yes,2.0,unknown,0
+250,Bob,Sharma,38.0,Female,Mumbai,120000.0,Yes,4.0,unknown,0
+251,Priya,Khan,13.0,Male,New York,35000.0,No,2.0,unknown,0
+252,John,Johnson,31.0,Female,London,75000.0,Unknown,2.0,High School,1
+253,Emma,Khan,47.0,unknown,London,85000.0,No,0.0,High School,1
+254,Rahul,Smith,52.0,Male,New York,55000.0,No,3.0,Graduate,1
+255,John,Khan,56.0,unknown,unknown,25000.0,Yes,4.0,High School,1
+256,Bob,Khan,15.0,Female,unknown,125000.0,No,0.0,Post-Graduate,0
+257,Amit,Patel,29.0,Male,unknown,80000.0,Yes,0.0,Graduate,0
+258,Priya,Patel,8.0,Male,London,120000.0,No,0.0,Post-Graduate,0
+259,Sara,Brown,5.0,Female,Delhi,95000.0,No,0.0,unknown,0
+260,Bob,Patel,29.0,Female,unknown,85000.0,Yes,2.0,unknown,1
+261,John,Khan,47.0,Male,unknown,25000.0,Yes,2.0,unknown,1
+262,Priya,Sharma,68.0,unknown,New York,70000.0,No,2.0,unknown,1
+263,Rahul,Khan,76.0,Female,unknown,65000.0,No,2.0,unknown,0
+264,John,Sharma,45.0,Female,New York,90000.0,Yes,2.0,High School,0
+265,Bob,Sharma,2.0,Female,unknown,100000.0,Unknown,4.0,Post-Graduate,1
+266,Alice,Patel,27.0,unknown,London,55000.0,Yes,4.0,unknown,1
+267,Emma,Johnson,36.0,unknown,unknown,105000.0,Yes,2.0,Graduate,0
+268,Sara,Smith,36.0,Female,New York,130000.0,Unknown,2.0,Post-Graduate,1
+269,Amit,Patel,26.0,Female,London,60000.0,Unknown,4.0,Graduate,0
+270,Bob,Patel,43.0,unknown,Delhi,140000.0,No,2.0,Post-Graduate,0
+271,Priya,Johnson,27.0,Male,New York,55000.0,No,2.0,Post-Graduate,0
+272,Sara,Smith,69.0,Male,unknown,85000.0,No,1.0,unknown,1
+273,Sara,Khan,20.0,Male,Delhi,85000.0,Yes,2.0,unknown,1
+274,Sara,Brown,11.0,Male,Delhi,85000.0,Yes,4.0,unknown,0
+275,John,Brown,74.0,Female,Mumbai,145000.0,Yes,2.0,Post-Graduate,1
+276,Emma,Khan,38.0,Female,unknown,140000.0,No,2.0,High School,0
+277,John,Patel,6.0,unknown,New York,105000.0,Unknown,2.0,High School,0
+278,Priya,Smith,72.0,Male,Delhi,125000.0,No,2.0,Graduate,0
+279,John,Patel,23.0,Male,Mumbai,115000.0,Yes,1.0,Graduate,0
+280,Alice,Sharma,47.0,Female,unknown,115000.0,Yes,1.0,unknown,1
+281,Emma,Patel,46.0,Male,London,120000.0,Yes,2.0,Post-Graduate,0
+282,Emma,Patel,12.0,Female,New York,75000.0,Yes,4.0,Graduate,0
+283,Priya,Khan,13.0,Female,Delhi,110000.0,Yes,3.0,Graduate,1
+284,Amit,Khan,62.0,Female,unknown,85000.0,Yes,1.0,Post-Graduate,0
+285,Alice,Khan,38.0,unknown,Mumbai,100000.0,No,0.0,unknown,0
+286,Bob,Brown,60.0,unknown,Delhi,135000.0,No,2.0,Graduate,1
+287,John,Sharma,43.0,Female,unknown,120000.0,Unknown,2.0,unknown,1
+288,Rahul,Khan,76.0,Female,Delhi,30000.0,Yes,0.0,unknown,1
+289,John,Smith,68.0,Female,New York,145000.0,Yes,2.0,unknown,0
+290,Sara,Brown,5.0,Female,New York,130000.0,Yes,2.0,High School,1
+291,John,Johnson,37.0,Female,New York,50000.0,No,2.0,High School,1
+292,Bob,Smith,72.0,Male,unknown,100000.0,Yes,2.0,unknown,0
+293,John,Smith,31.0,Male,unknown,75000.0,Yes,1.0,High School,0
+294,Alice,Khan,9.0,Female,Mumbai,60000.0,No,1.0,unknown,0
+295,Alice,Johnson,51.0,Male,New York,90000.0,Yes,0.0,Post-Graduate,0
+296,Emma,Johnson,29.0,Female,unknown,105000.0,Yes,2.0,High School,0
+297,Priya,Brown,78.0,Male,Delhi,120000.0,Yes,2.0,High School,1
+298,Amit,Johnson,40.0,Female,London,80000.0,Yes,2.0,unknown,1
+299,Rahul,Sharma,41.0,Male,unknown,120000.0,No,2.0,unknown,1
+300,Sara,Khan,11.0,Female,unknown,55000.0,Yes,0.0,Post-Graduate,0
+301,John,Johnson,23.0,Female,unknown,85000.0,Yes,3.0,unknown,0
+302,John,Brown,1.0,unknown,unknown,55000.0,No,0.0,unknown,0
+303,Bob,Sharma,46.0,Female,unknown,85000.0,No,4.0,unknown,1
+304,Priya,Patel,21.0,Female,New York,50000.0,Unknown,0.0,Post-Graduate,1
+305,Alice,Patel,36.0,Male,Mumbai,130000.0,Yes,2.0,unknown,0
+306,Rahul,Sharma,54.0,Male,Delhi,75000.0,Yes,4.0,Post-Graduate,1
+307,Emma,Brown,57.0,Female,Mumbai,70000.0,No,4.0,unknown,0
+308,Alice,Sharma,1.0,unknown,Delhi,125000.0,Yes,4.0,unknown,1
+309,Sara,Khan,63.0,Female,Delhi,125000.0,No,3.0,unknown,1
+310,Priya,Khan,54.0,unknown,Mumbai,70000.0,Yes,0.0,Graduate,1
+311,Sara,Patel,55.0,Male,unknown,140000.0,No,2.0,High School,0
+312,Amit,Johnson,40.0,Male,Delhi,125000.0,Unknown,0.0,unknown,1
+313,Emma,Brown,15.0,Male,Mumbai,85000.0,Unknown,3.0,Graduate,1
+314,Amit,Patel,21.0,Male,Delhi,80000.0,No,2.0,High School,0
+315,Bob,Johnson,47.0,Female,London,105000.0,Yes,1.0,unknown,1
+316,Sara,Johnson,73.0,Female,unknown,25000.0,Yes,2.0,Post-Graduate,0
+317,Bob,Khan,53.0,Female,New York,120000.0,Yes,2.0,High School,0
+318,John,Smith,9.0,Female,Delhi,90000.0,No,0.0,unknown,0
+319,Amit,Smith,74.0,unknown,London,115000.0,Yes,1.0,Graduate,0
+320,Priya,Sharma,52.0,Female,New York,85000.0,Yes,2.0,High School,0
+321,Sara,Khan,57.0,Male,New York,105000.0,Unknown,2.0,High School,1
+322,Rahul,Johnson,26.0,Male,Delhi,90000.0,Yes,3.0,unknown,0
+323,Emma,Brown,41.0,unknown,Mumbai,110000.0,Yes,2.0,unknown,0
+324,Alice,Smith,35.0,Male,Delhi,130000.0,Yes,2.0,Post-Graduate,0
+325,Priya,Johnson,63.0,unknown,London,135000.0,Yes,2.0,unknown,0
+326,Priya,Smith,25.0,unknown,New York,75000.0,No,2.0,Post-Graduate,1
+327,Bob,Smith,75.0,Male,Delhi,80000.0,Yes,2.0,unknown,0
+328,Amit,Smith,38.0,Female,Mumbai,125000.0,No,2.0,High School,1
+329,Sara,Brown,2.0,Female,Delhi,70000.0,No,2.0,Post-Graduate,0
+330,Sara,Khan,7.0,Female,unknown,40000.0,No,3.0,Graduate,1
+331,John,Brown,38.0,Male,Mumbai,20000.0,Yes,4.0,Graduate,0
+332,John,Patel,34.0,Male,London,135000.0,Unknown,4.0,unknown,0
+333,Emma,Johnson,17.0,Male,New York,30000.0,Yes,1.0,unknown,1
+334,Bob,Khan,43.0,Male,Delhi,125000.0,Unknown,4.0,unknown,0
+335,Priya,Khan,59.0,Female,Mumbai,110000.0,Yes,4.0,unknown,1
+336,Sara,Khan,51.0,Female,unknown,130000.0,No,2.0,unknown,0
+337,Rahul,Khan,54.0,unknown,Mumbai,50000.0,Yes,2.0,Graduate,1
+338,Bob,Brown,24.0,unknown,unknown,75000.0,Yes,2.0,Graduate,0
+339,Emma,Khan,25.0,unknown,unknown,90000.0,No,1.0,unknown,0
+340,Emma,Sharma,71.0,Male,London,140000.0,Unknown,0.0,Graduate,1
+341,Bob,Johnson,52.0,Female,New York,40000.0,Unknown,2.0,unknown,0
+342,Emma,Khan,70.0,Male,London,90000.0,Unknown,1.0,unknown,0
+343,Bob,Johnson,33.0,Male,Delhi,55000.0,No,1.0,Graduate,0
+344,Alice,Sharma,49.0,unknown,Mumbai,65000.0,Unknown,3.0,Post-Graduate,0
+345,Bob,Sharma,29.0,Male,unknown,145000.0,Yes,2.0,unknown,0
+346,Amit,Johnson,63.0,Male,unknown,95000.0,No,3.0,unknown,0
+347,Bob,Smith,22.0,Male,unknown,55000.0,Yes,1.0,unknown,1
+348,Emma,Patel,26.0,Female,Mumbai,20000.0,Unknown,1.0,High School,1
+349,Sara,Smith,28.0,Female,unknown,75000.0,Unknown,1.0,High School,1
+350,Amit,Smith,49.0,Female,Mumbai,40000.0,Yes,4.0,unknown,0
+351,Emma,Brown,71.0,unknown,Delhi,30000.0,Unknown,2.0,unknown,1
+352,John,Smith,38.0,Male,London,20000.0,Yes,2.0,unknown,0
+353,John,Khan,49.0,Male,unknown,35000.0,No,3.0,High School,0
+354,Sara,Brown,20.0,Male,Delhi,55000.0,Yes,1.0,unknown,0
+355,Sara,Brown,63.0,Female,London,30000.0,Yes,2.0,Graduate,0
+356,Amit,Sharma,61.0,Female,Delhi,65000.0,No,2.0,unknown,1
+357,Alice,Smith,49.0,Female,unknown,25000.0,Yes,2.0,unknown,0
+358,Sara,Sharma,71.0,Male,unknown,70000.0,Unknown,2.0,Post-Graduate,1
+359,John,Johnson,1.0,Female,Mumbai,140000.0,No,2.0,Post-Graduate,0
+360,Bob,Patel,13.0,Male,Mumbai,65000.0,No,2.0,unknown,1
+361,Emma,Brown,51.0,Male,London,120000.0,Yes,2.0,Graduate,1
+362,John,Johnson,56.0,unknown,New York,85000.0,Yes,2.0,High School,1
+363,John,Johnson,62.0,unknown,unknown,50000.0,No,4.0,High School,1
+364,Alice,Khan,32.0,Male,London,85000.0,No,2.0,Graduate,1
+365,Amit,Patel,30.0,Female,New York,85000.0,Unknown,4.0,High School,1
+366,Amit,Johnson,29.0,Female,Delhi,25000.0,Unknown,2.0,unknown,0
+367,Priya,Johnson,49.0,Male,unknown,60000.0,Yes,0.0,unknown,1
+368,Alice,Patel,45.0,unknown,Delhi,95000.0,No,0.0,unknown,0
+369,Bob,Patel,30.0,Female,unknown,80000.0,Yes,0.0,Graduate,1
+370,Amit,Johnson,16.0,unknown,unknown,60000.0,Unknown,2.0,High School,0
+371,Emma,Patel,40.0,Female,New York,115000.0,Yes,4.0,Post-Graduate,1
+372,Sara,Johnson,19.0,Female,unknown,35000.0,No,4.0,Post-Graduate,1
+373,Alice,Johnson,18.0,Male,Mumbai,125000.0,No,4.0,High School,0
+374,Sara,Khan,1.0,Female,New York,65000.0,No,2.0,Post-Graduate,1
+375,John,Smith,78.0,Male,London,145000.0,No,4.0,Graduate,1
+376,Emma,Johnson,47.0,Male,Mumbai,145000.0,No,2.0,Graduate,1
+377,Emma,Sharma,66.0,Female,Mumbai,125000.0,Unknown,0.0,High School,0
+378,John,Brown,38.0,Female,London,75000.0,Yes,0.0,Post-Graduate,1
+379,Alice,Smith,51.0,Female,unknown,100000.0,No,2.0,Graduate,0
+380,John,Smith,63.0,Male,Mumbai,85000.0,No,2.0,Graduate,1
+381,Sara,Smith,4.0,Male,New York,85000.0,No,0.0,unknown,1
+382,Priya,Khan,1.0,Female,unknown,140000.0,Yes,2.0,unknown,0
+383,Emma,Johnson,8.0,unknown,Mumbai,25000.0,Yes,2.0,Graduate,1
+384,Rahul,Khan,29.0,unknown,New York,120000.0,Yes,2.0,High School,1
+385,Rahul,Johnson,55.0,Female,Delhi,140000.0,Yes,1.0,unknown,0
+386,Sara,Khan,3.0,Male,New York,115000.0,No,1.0,unknown,1
+387,Bob,Khan,32.0,unknown,unknown,70000.0,Yes,3.0,Graduate,0
+388,Amit,Brown,10.0,Male,New York,95000.0,Unknown,2.0,Graduate,0
+389,John,Sharma,74.0,unknown,London,110000.0,No,3.0,Graduate,0
+390,John,Khan,34.0,Female,unknown,130000.0,No,3.0,High School,1
+391,Bob,Brown,55.0,Female,unknown,45000.0,Yes,1.0,unknown,0
+392,Bob,Patel,32.0,Male,Delhi,135000.0,Yes,2.0,Graduate,0
+393,Sara,Sharma,50.0,unknown,London,110000.0,No,1.0,Graduate,1
+394,Sara,Khan,7.0,Male,unknown,40000.0,No,3.0,Post-Graduate,0
+395,Bob,Smith,8.0,Male,New York,145000.0,Yes,2.0,High School,1
+396,Emma,Patel,65.0,Female,unknown,35000.0,Yes,3.0,Graduate,1
+397,Sara,Patel,57.0,Male,Delhi,90000.0,Unknown,4.0,Post-Graduate,1
+398,Priya,Brown,67.0,Male,London,35000.0,Unknown,2.0,unknown,1
+399,Sara,Patel,59.0,Male,unknown,115000.0,Yes,2.0,Graduate,0
+400,John,Sharma,72.0,Male,unknown,65000.0,Yes,2.0,Graduate,0
+401,Sara,Khan,54.0,Male,Delhi,135000.0,Yes,2.0,Post-Graduate,0
+402,Emma,Khan,67.0,Female,New York,125000.0,Unknown,3.0,High School,0
+403,Bob,Smith,51.0,Male,Delhi,30000.0,No,4.0,Graduate,0
+404,John,Brown,8.0,Female,unknown,145000.0,Yes,2.0,unknown,1
+405,Sara,Smith,34.0,Female,Mumbai,40000.0,Unknown,2.0,Graduate,0
+406,Emma,Patel,35.0,Male,London,45000.0,Unknown,1.0,unknown,0
+407,Priya,Smith,78.0,Female,Delhi,120000.0,Yes,3.0,unknown,0
+408,Sara,Sharma,32.0,Female,unknown,125000.0,Yes,2.0,unknown,1
+409,Emma,Khan,46.0,Female,New York,55000.0,Yes,2.0,unknown,1
+410,Priya,Patel,16.0,Male,unknown,50000.0,No,2.0,High School,0
+411,Bob,Smith,68.0,Female,New York,120000.0,No,1.0,Graduate,1
+412,Sara,Brown,37.0,Male,Delhi,65000.0,Yes,1.0,Graduate,0
+413,Priya,Sharma,54.0,Male,New York,45000.0,No,1.0,unknown,0
+414,John,Sharma,14.0,Male,unknown,85000.0,Unknown,2.0,unknown,1
+415,Bob,Smith,55.0,unknown,unknown,35000.0,Unknown,2.0,Graduate,1
+416,John,Khan,48.0,Male,unknown,85000.0,Yes,0.0,Graduate,0
+417,Rahul,Smith,38.0,unknown,Mumbai,140000.0,No,3.0,High School,0
+418,Alice,Patel,7.0,Female,Delhi,80000.0,Yes,0.0,Post-Graduate,1
+419,Sara,Smith,74.0,Female,unknown,115000.0,Yes,2.0,unknown,0
+420,Priya,Sharma,7.0,Female,unknown,100000.0,Yes,0.0,unknown,1
+421,Alice,Smith,33.0,Female,Mumbai,130000.0,Unknown,2.0,Post-Graduate,0
+422,Alice,Khan,23.0,Female,New York,50000.0,Yes,0.0,Graduate,1
+423,Priya,Brown,19.0,Female,Mumbai,35000.0,Yes,1.0,High School,0
+424,Bob,Johnson,19.0,Female,New York,85000.0,Yes,4.0,High School,0
+425,Sara,Smith,36.0,Female,New York,30000.0,Unknown,1.0,unknown,1
+426,Rahul,Khan,29.0,Female,London,135000.0,Yes,1.0,High School,0
+427,John,Khan,60.0,Male,unknown,40000.0,Yes,2.0,Post-Graduate,0
+428,Emma,Brown,38.0,Male,unknown,95000.0,Yes,2.0,Graduate,1
+429,John,Sharma,2.0,unknown,New York,145000.0,Unknown,0.0,Post-Graduate,0
+430,Emma,Khan,1.0,Male,London,130000.0,Yes,2.0,unknown,0
+431,John,Khan,47.0,Male,unknown,115000.0,Yes,1.0,unknown,0
+432,Priya,Khan,69.0,Male,unknown,35000.0,Yes,0.0,High School,1
+433,Rahul,Khan,20.0,Male,New York,135000.0,Unknown,2.0,unknown,1
+434,Sara,Patel,11.0,Male,New York,135000.0,Unknown,4.0,High School,1
+435,Emma,Patel,2.0,Female,Mumbai,25000.0,Yes,3.0,Graduate,0
+436,Sara,Sharma,67.0,Female,Mumbai,105000.0,No,0.0,Graduate,0
+437,Sara,Smith,12.0,Female,unknown,110000.0,Yes,4.0,Graduate,0
+438,Sara,Khan,20.0,Female,unknown,85000.0,No,3.0,High School,0
+439,Amit,Brown,5.0,Female,New York,85000.0,Unknown,2.0,unknown,1
+440,Bob,Smith,37.0,Male,unknown,110000.0,Unknown,0.0,Graduate,0
+441,John,Brown,38.0,Male,unknown,100000.0,Unknown,0.0,unknown,0
+442,Sara,Smith,9.0,Female,Delhi,85000.0,No,2.0,High School,0
+443,John,Sharma,53.0,Female,Mumbai,110000.0,Unknown,2.0,unknown,1
+444,Sara,Khan,44.0,Female,unknown,125000.0,Yes,0.0,High School,0
+445,Emma,Khan,24.0,Female,New York,135000.0,Unknown,2.0,High School,0
+446,Bob,Johnson,38.0,Male,unknown,80000.0,No,1.0,unknown,0
+447,Bob,Brown,74.0,Male,New York,75000.0,No,3.0,High School,0
+448,Priya,Smith,30.0,Female,Delhi,145000.0,No,3.0,High School,0
+449,Amit,Smith,59.0,Female,unknown,45000.0,Unknown,3.0,Post-Graduate,1
+450,Priya,Patel,38.0,Male,unknown,120000.0,Yes,1.0,Graduate,0
+451,Priya,Johnson,38.0,Female,New York,35000.0,Yes,2.0,unknown,0
+452,Priya,Patel,14.0,Female,Mumbai,110000.0,Unknown,2.0,unknown,0
+453,Priya,Patel,9.0,Female,Delhi,95000.0,Yes,4.0,unknown,0
+454,Priya,Patel,40.0,unknown,unknown,80000.0,No,2.0,Post-Graduate,0
+455,Rahul,Brown,66.0,Male,Delhi,35000.0,No,0.0,High School,0
+456,Bob,Brown,25.0,unknown,Mumbai,130000.0,No,2.0,Graduate,0
+457,Priya,Sharma,73.0,Male,unknown,100000.0,No,3.0,unknown,0
+458,Sara,Sharma,22.0,Female,Delhi,130000.0,No,2.0,High School,0
+459,Bob,Patel,4.0,Male,London,20000.0,Yes,4.0,Post-Graduate,0
+460,Bob,Johnson,26.0,Female,Mumbai,105000.0,No,0.0,High School,1
+461,Alice,Smith,58.0,unknown,Mumbai,115000.0,No,1.0,High School,1
+462,Rahul,Brown,29.0,unknown,Mumbai,100000.0,Unknown,2.0,Post-Graduate,1
+463,Priya,Johnson,37.0,unknown,London,85000.0,Yes,1.0,unknown,1
+464,John,Khan,75.0,Male,London,85000.0,No,4.0,unknown,0
+465,Emma,Brown,70.0,Female,New York,85000.0,No,0.0,Graduate,1
+466,Amit,Brown,18.0,Female,unknown,90000.0,Yes,3.0,Graduate,1
+467,Sara,Sharma,42.0,Female,Delhi,70000.0,Yes,2.0,unknown,0
+468,John,Smith,41.0,Male,New York,140000.0,No,0.0,unknown,1
+469,Rahul,Smith,38.0,unknown,Delhi,85000.0,No,2.0,High School,1
+470,Emma,Khan,34.0,Male,unknown,125000.0,Yes,1.0,unknown,0
+471,Rahul,Khan,17.0,Male,London,80000.0,Yes,2.0,High School,0
+472,Sara,Brown,37.0,Male,unknown,20000.0,No,2.0,unknown,0
+473,Bob,Patel,25.0,Female,London,100000.0,Unknown,4.0,Graduate,1
+474,Emma,Sharma,76.0,Female,unknown,45000.0,Yes,4.0,Graduate,1
+475,Bob,Sharma,27.0,Male,New York,35000.0,No,2.0,unknown,0
+476,Sara,Brown,57.0,Male,unknown,115000.0,No,4.0,Graduate,0
+477,John,Johnson,31.0,unknown,New York,95000.0,Yes,4.0,unknown,1
+478,Sara,Patel,6.0,unknown,Delhi,90000.0,Yes,0.0,unknown,0
+479,John,Brown,40.0,Male,New York,85000.0,Unknown,3.0,High School,1
+480,Emma,Patel,12.0,Female,Mumbai,90000.0,No,2.0,Graduate,0
+481,Emma,Patel,53.0,Male,Delhi,45000.0,No,0.0,Post-Graduate,0
+482,Priya,Patel,71.0,unknown,unknown,90000.0,Yes,3.0,Graduate,1
+483,Rahul,Brown,10.0,Female,Delhi,85000.0,Yes,2.0,High School,0
+484,Priya,Sharma,45.0,unknown,unknown,85000.0,Yes,0.0,unknown,0
+485,Rahul,Sharma,17.0,Female,London,70000.0,No,2.0,High School,0
+486,Priya,Patel,26.0,unknown,unknown,50000.0,Yes,0.0,Post-Graduate,1
+487,Bob,Johnson,62.0,Female,Delhi,60000.0,No,4.0,unknown,0
+488,Emma,Smith,46.0,Female,unknown,145000.0,Yes,3.0,Graduate,0
+489,John,Brown,64.0,Female,unknown,95000.0,Unknown,2.0,unknown,0
+490,Rahul,Smith,2.0,Female,unknown,40000.0,No,2.0,unknown,0
+491,Sara,Johnson,54.0,Female,London,140000.0,Unknown,3.0,High School,0
+492,Rahul,Brown,65.0,Female,New York,115000.0,Yes,4.0,unknown,0
+493,John,Patel,51.0,Male,unknown,65000.0,No,1.0,unknown,1
+494,Priya,Sharma,53.0,Male,Mumbai,105000.0,Yes,0.0,unknown,1
+495,Rahul,Smith,36.0,Male,unknown,30000.0,Yes,4.0,Post-Graduate,0
+496,Amit,Khan,26.0,Female,London,80000.0,No,2.0,Post-Graduate,1
+497,Bob,Khan,29.0,Female,Delhi,70000.0,Yes,2.0,Graduate,1
+498,Emma,Johnson,21.0,unknown,London,100000.0,Yes,3.0,Graduate,0
+499,John,Patel,11.0,Female,Delhi,125000.0,Yes,0.0,Post-Graduate,1
+500,Emma,Smith,40.0,Female,London,80000.0,Unknown,2.0,unknown,1

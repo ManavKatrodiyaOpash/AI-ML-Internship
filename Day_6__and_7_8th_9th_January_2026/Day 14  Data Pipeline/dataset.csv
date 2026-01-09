@@ -1,0 +1,501 @@
+PassengerID,Name,FamilyName,Age,Gender,City,Salary,Married,Children,Education,Purchased
+1,Amit,Khan,74,M,Delhi,105000,Yes,-2,Post-Graduate,1
+2,Emma,Khan,17,F,Delhi,85000,Y,1,High School,0
+3,Rahul,Smith,69,Male,New York,115000,,4,,1
+4,Amit,Sharma,34,M,???,105000,Y,4,Graduate,1
+5,Bob,Patel,6,M,Delhi,65000,,,,1
+6,Sara,Smith,53,Female,London,140000,Y,0,Graduate,0
+7,Rahul,Patel,66,,London,25000,No,-2,Unknown,1
+8,Rahul,Brown,77,Male,Delhi,140000,Y,-2,Post-Graduate,1
+9,Amit,Patel,43,Female,???,125000,No,0,Unknown,0
+10,Alice,Sharma,75,F,,20000,Y,-2,Unknown,0
+11,Bob,Brown,23,F,New York,35000,,0,,1
+12,Amit,Patel,55,M,London,85000,,,Post-Graduate,1
+13,Bob,Brown,,M,,20000,,3,Graduate,1
+14,Bob,Patel,75,F,Delhi,85000,N,4,Graduate,0
+15,Sara,Sharma,16,M,,95000,Yes,,High School,0
+16,Rahul,Patel,8,Male,Mumbai,125000,,2,Graduate,0
+17,Emma,Patel,4,M,London,85000,No,1,,0
+18,Sara,Patel,4,,Delhi,115000,,3,Unknown,1
+19,Sara,Smith,56,M,New York,30000,N,2,Unknown,0
+20,Bob,Smith,25,Female,???,30000,No,4,Unknown,0
+21,Priya,Smith,67,Male,Delhi,60000,N,-2,Post-Graduate,0
+22,Rahul,Sharma,67,Female,New York,45000,No,0,Graduate,1
+23,Alice,Brown,27,Female,???,140000,Y,4,,1
+24,Sara,Khan,32,,???,80000,Yes,,Post-Graduate,0
+25,Emma,Patel,50,Male,Delhi,120000,Yes,1,High School,0
+26,Priya,Patel,61,Male,,25000,N,,,1
+27,Priya,Sharma,51,Male,,55000,Yes,3,,1
+28,Alice,Patel,19,Male,???,120000,N,3,,1
+29,Sara,Smith,21,Male,,25000,N,1,Unknown,1
+30,Emma,Khan,5,,Mumbai,35000,N,2,,1
+31,Rahul,Johnson,200,M,???,140000,Yes,2,Graduate,1
+32,John,Patel,42,Female,???,90000,N,3,,1
+33,Emma,Smith,61,Male,New York,35000,Yes,3,Unknown,1
+34,Alice,Johnson,22,M,,80000,N,-2,,0
+35,Priya,Khan,21,M,???,-5000,,0,High School,0
+36,Rahul,Johnson,70,Female,Mumbai,75000,N,-2,High School,0
+37,Emma,Smith,1,,New York,-5000,No,-2,Unknown,0
+38,John,Brown,5,F,Delhi,80000,N,2,Graduate,0
+39,John,Brown,12,F,???,85000,Y,1,Graduate,0
+40,Bob,Johnson,46,M,Mumbai,115000,N,2,Post-Graduate,1
+41,Bob,Sharma,34,Female,London,105000,No,0,Unknown,1
+42,Amit,Johnson,49,F,Mumbai,-5000,No,,,0
+43,Alice,Patel,78,M,Mumbai,45000,Yes,3,Unknown,0
+44,Sara,Patel,45,,New York,70000,,3,Post-Graduate,1
+45,Emma,Brown,27,F,Delhi,25000,N,0,Unknown,1
+46,Emma,Sharma,73,M,London,-5000,Yes,-2,Unknown,1
+47,Sara,Smith,26,M,,130000,,1,Post-Graduate,0
+48,Amit,Patel,47,Male,,110000,N,3,Graduate,1
+49,Priya,Brown,56,,Mumbai,110000,Y,4,,0
+50,Priya,Khan,63,Male,New York,40000,N,-2,Post-Graduate,0
+51,Amit,Brown,48,Female,New York,110000,No,3,High School,1
+52,Priya,Patel,61,Male,,25000,No,4,Graduate,1
+53,Bob,Patel,-1,Male,London,65000,Y,0,High School,0
+54,Emma,Brown,26,F,Delhi,140000,Yes,0,Graduate,1
+55,Amit,Smith,36,M,London,25000,,-2,,1
+56,Emma,Johnson,1,,???,70000,N,3,,0
+57,Sara,Patel,8,Male,???,105000,No,2,Unknown,1
+58,John,Brown,52,,Delhi,135000,Yes,4,High School,0
+59,Bob,Brown,79,Male,,90000,Y,1,Graduate,0
+60,Rahul,Sharma,47,Female,Delhi,60000,No,3,,1
+61,Bob,Johnson,56,Male,New York,130000,Y,1,Post-Graduate,0
+62,Amit,Khan,14,F,???,110000,N,3,,0
+63,Rahul,Smith,28,M,Mumbai,60000,,2,Post-Graduate,1
+64,John,Khan,78,Female,Mumbai,30000,No,2,Graduate,1
+65,Amit,Johnson,2,Male,,120000,No,-2,,1
+66,Alice,Johnson,26,,New York,60000,N,-2,,0
+67,Emma,Johnson,14,Female,London,-5000,Yes,2,Graduate,0
+68,John,Khan,59,Female,New York,85000,,,,1
+69,Emma,Johnson,56,Male,Mumbai,110000,No,2,Post-Graduate,0
+70,Priya,Brown,7,Female,Mumbai,50000,,0,,1
+71,Alice,Khan,3,,???,95000,No,0,High School,1
+72,Alice,Johnson,23,Female,New York,95000,,,Unknown,0
+73,John,Brown,18,,New York,-5000,Y,4,Post-Graduate,1
+74,Alice,Sharma,38,Male,Mumbai,20000,No,1,High School,0
+75,Rahul,Johnson,15,M,London,35000,,3,Graduate,0
+76,Alice,Khan,64,Female,,35000,Yes,3,Post-Graduate,1
+77,Emma,Patel,28,M,,50000,Y,,Unknown,0
+78,Emma,Johnson,74,,New York,55000,Y,0,Unknown,1
+79,Amit,Patel,39,Female,,100000,Yes,-2,Graduate,0
+80,Emma,Brown,57,F,Mumbai,40000,,3,Graduate,0
+81,Amit,Sharma,17,M,Mumbai,50000,N,0,Post-Graduate,0
+82,Emma,Smith,44,Female,New York,-5000,Yes,4,,1
+83,Rahul,Sharma,25,M,New York,115000,,1,Graduate,0
+84,Sara,Johnson,17,Female,???,115000,Yes,4,,1
+85,Amit,Patel,13,Male,New York,35000,Yes,,High School,0
+86,Bob,Patel,25,M,London,-5000,No,2,Unknown,0
+87,Priya,Khan,68,F,,45000,,2,,1
+88,John,Patel,10,F,New York,50000,N,2,Unknown,1
+89,Emma,Khan,67,,Delhi,105000,No,4,,1
+90,Alice,Brown,18,Female,???,40000,Yes,3,High School,1
+91,Sara,Smith,34,M,Delhi,115000,Yes,1,Graduate,1
+92,Emma,Johnson,8,,Mumbai,30000,Yes,2,High School,0
+93,Alice,Khan,40,M,,50000,,,Graduate,0
+94,Priya,Smith,42,Female,New York,,,,Graduate,1
+95,Priya,Patel,41,F,Delhi,-5000,No,2,Unknown,0
+96,Priya,Patel,6,Male,,125000,N,2,High School,0
+97,Alice,Smith,52,F,Mumbai,85000,No,1,,0
+98,Emma,Patel,26,,London,50000,Y,2,High School,1
+99,Priya,Brown,64,Male,???,40000,Yes,1,Unknown,0
+100,Rahul,Brown,59,,,125000,Yes,,Graduate,0
+101,Amit,Smith,56,Female,,40000,Yes,2,Unknown,0
+102,Alice,Khan,59,Male,London,130000,No,4,Post-Graduate,1
+103,Alice,Khan,70,,,25000,No,-2,Post-Graduate,0
+104,Emma,Smith,33,Female,Mumbai,,Yes,4,,0
+105,Alice,Khan,53,F,Mumbai,120000,No,,Unknown,1
+106,Alice,Khan,22,Female,London,125000,,1,,1
+107,Priya,Brown,21,M,???,45000,,4,,0
+108,Emma,Khan,70,Female,New York,90000,No,1,Post-Graduate,0
+109,Priya,Sharma,70,Female,Delhi,120000,Yes,4,,1
+110,Amit,Johnson,4,M,New York,65000,No,4,Post-Graduate,1
+111,Sara,Patel,75,,,130000,No,1,Graduate,1
+112,Amit,Sharma,62,,Delhi,145000,No,3,Unknown,1
+113,Sara,Khan,62,Female,London,135000,Y,4,,1
+114,Priya,Brown,24,M,London,50000,,2,Post-Graduate,1
+115,Amit,Smith,55,M,???,40000,N,-2,High School,1
+116,Emma,Khan,9,F,Delhi,20000,N,,,0
+117,John,Brown,3,,Mumbai,80000,Y,3,Graduate,1
+118,Priya,Johnson,31,Male,Delhi,120000,No,1,Graduate,1
+119,Sara,Khan,40,,,145000,Y,3,High School,0
+120,Rahul,Smith,36,,Mumbai,105000,Y,0,Post-Graduate,1
+121,Sara,Brown,24,F,London,80000,Yes,0,,1
+122,Rahul,Brown,6,Male,Delhi,120000,,4,Post-Graduate,0
+123,Alice,Brown,66,F,New York,120000,N,4,Graduate,1
+124,Amit,Johnson,75,Male,???,105000,No,2,Post-Graduate,0
+125,Rahul,Khan,4,Female,New York,40000,N,-2,Graduate,0
+126,Sara,Johnson,79,Male,???,80000,N,,Post-Graduate,0
+127,Alice,Patel,6,F,,35000,,3,High School,0
+128,John,Patel,51,,New York,100000,N,0,Unknown,1
+129,Emma,Khan,62,Male,Delhi,30000,N,4,High School,0
+130,Emma,Johnson,57,Male,Delhi,100000,Y,,High School,0
+131,Emma,Smith,66,M,New York,-5000,,3,Unknown,1
+132,Rahul,Brown,79,,Delhi,70000,Yes,4,Unknown,0
+133,John,Brown,75,Female,,120000,No,4,,0
+134,Rahul,Khan,8,F,Mumbai,115000,N,0,,0
+135,Amit,Patel,26,Female,,130000,No,0,High School,0
+136,Rahul,Patel,51,,???,120000,Yes,4,High School,1
+137,John,Brown,45,Male,,145000,No,1,Graduate,0
+138,John,Khan,44,Male,???,35000,Yes,4,Graduate,1
+139,Amit,Johnson,5,,Delhi,25000,Y,,,1
+140,John,Patel,70,Male,Mumbai,115000,N,4,,0
+141,Sara,Johnson,26,Male,Delhi,95000,Yes,2,Graduate,0
+142,John,Patel,68,Male,London,-5000,No,-2,Graduate,0
+143,Emma,Patel,19,F,Delhi,105000,N,2,Post-Graduate,0
+144,Sara,Sharma,20,F,???,55000,Y,2,Post-Graduate,1
+145,Sara,Patel,12,M,Delhi,30000,N,1,Graduate,1
+146,Amit,Smith,47,Female,Delhi,60000,Yes,1,Post-Graduate,1
+147,Bob,Khan,1,,Mumbai,115000,Y,4,Unknown,0
+148,Bob,Khan,14,,Delhi,45000,No,2,,1
+149,John,Johnson,64,,Mumbai,65000,Y,1,,0
+150,Sara,Patel,38,M,New York,120000,Y,0,Graduate,0
+151,Bob,Smith,37,F,London,65000,,4,High School,0
+152,Bob,Johnson,11,M,Mumbai,80000,Y,,Graduate,0
+153,John,Sharma,77,,???,100000,Y,-2,Post-Graduate,0
+154,Bob,Johnson,3,Female,New York,60000,N,3,High School,1
+155,Rahul,Johnson,33,Male,Mumbai,100000,No,4,Post-Graduate,1
+156,Alice,Patel,6,F,Mumbai,135000,N,3,Unknown,0
+157,Amit,Sharma,50,F,London,60000,N,2,Post-Graduate,1
+158,Alice,Johnson,10,M,???,60000,Yes,-2,Unknown,0
+159,John,Smith,5,F,,20000,N,3,Unknown,0
+160,Emma,Smith,23,,,25000,,2,Post-Graduate,0
+161,Amit,Khan,10,,Mumbai,-5000,,0,Post-Graduate,1
+162,John,Sharma,44,M,Delhi,95000,Yes,3,Unknown,0
+163,Sara,Sharma,2,,???,20000,No,-2,High School,0
+164,Emma,Khan,13,Female,New York,65000,No,4,Unknown,1
+165,Alice,Johnson,40,M,Delhi,105000,N,2,,1
+166,John,Sharma,2,Female,Delhi,145000,N,4,Unknown,1
+167,Sara,Smith,65,Male,???,-5000,N,-2,High School,0
+168,Amit,Smith,63,Female,Mumbai,55000,No,1,,0
+169,Amit,Patel,73,Male,Mumbai,120000,Y,2,Graduate,1
+170,Priya,Sharma,17,Male,Mumbai,-5000,,3,Graduate,0
+171,Sara,Johnson,9,Female,Mumbai,70000,Y,2,High School,1
+172,Rahul,Khan,75,M,,130000,Y,4,Unknown,1
+173,Bob,Khan,15,,Mumbai,25000,No,0,Post-Graduate,0
+174,Emma,Johnson,24,,,55000,Y,2,High School,0
+175,Sara,Brown,38,Male,,,Yes,3,,1
+176,Priya,Patel,35,Male,Mumbai,125000,N,1,,1
+177,Bob,Khan,49,M,London,55000,Yes,,Graduate,1
+178,Bob,Sharma,69,F,New York,100000,,0,,1
+179,John,Patel,62,Female,Delhi,90000,N,1,High School,0
+180,Bob,Sharma,60,Male,,100000,Y,2,,1
+181,Rahul,Smith,50,,???,-5000,,4,High School,1
+182,Amit,Patel,78,M,???,130000,N,-2,Post-Graduate,1
+183,Priya,Khan,75,Female,New York,135000,Y,4,Graduate,0
+184,Bob,Patel,9,M,???,80000,Yes,3,,0
+185,John,Patel,34,Female,London,110000,N,4,High School,1
+186,Rahul,Patel,76,Female,???,40000,Y,0,Unknown,0
+187,Alice,Brown,35,Male,Delhi,75000,Yes,4,Graduate,0
+188,Amit,Patel,1,M,Delhi,20000,,3,Post-Graduate,0
+189,Amit,Sharma,40,M,,130000,,,High School,1
+190,Priya,Smith,64,,Mumbai,40000,,2,Post-Graduate,1
+191,Amit,Johnson,22,,London,55000,,-2,Post-Graduate,0
+192,Bob,Patel,60,Male,,80000,No,2,,1
+193,John,Khan,64,Male,London,55000,N,4,,1
+194,Amit,Patel,72,F,Mumbai,140000,N,1,High School,0
+195,Amit,Khan,11,,???,130000,No,2,Unknown,0
+196,Alice,Sharma,14,Female,???,70000,Y,,High School,1
+197,Alice,Khan,60,M,Mumbai,20000,Y,4,Unknown,0
+198,Emma,Johnson,30,Male,,80000,,-2,Post-Graduate,1
+199,Rahul,Smith,35,M,Mumbai,110000,Yes,3,Graduate,1
+200,Bob,Khan,37,M,New York,135000,Y,,High School,0
+201,Amit,Khan,5,F,Delhi,30000,Yes,4,High School,1
+202,Sara,Smith,78,,,135000,N,,Unknown,1
+203,Amit,Johnson,26,Male,London,100000,Yes,2,Post-Graduate,0
+204,John,Patel,62,M,New York,40000,N,-2,Post-Graduate,0
+205,Emma,Khan,4,Male,,115000,No,3,Unknown,0
+206,Rahul,Smith,42,Female,Mumbai,120000,No,4,Post-Graduate,1
+207,Sara,Sharma,18,F,Mumbai,55000,,0,,0
+208,Emma,Smith,40,Female,Mumbai,145000,Y,3,Graduate,0
+209,Priya,Sharma,72,Male,Mumbai,85000,,0,High School,0
+210,Rahul,Johnson,39,Male,London,35000,N,,Graduate,0
+211,Amit,Patel,14,,New York,70000,,1,High School,1
+212,Amit,Smith,32,M,???,115000,Yes,3,,1
+213,Rahul,Brown,51,M,Delhi,90000,N,,Post-Graduate,0
+214,Amit,Khan,38,Female,London,110000,No,0,Unknown,1
+215,Bob,Johnson,23,F,London,50000,Y,2,,0
+216,Rahul,Smith,63,M,???,110000,N,2,Graduate,0
+217,Emma,Khan,15,,???,-5000,N,1,Unknown,1
+218,Rahul,Smith,25,Female,Delhi,110000,Yes,3,Post-Graduate,1
+219,Sara,Sharma,17,Female,Delhi,70000,Y,3,,0
+220,Amit,Smith,66,,???,145000,No,3,Unknown,0
+221,Bob,Brown,78,F,Mumbai,40000,N,,,1
+222,Bob,Smith,53,,London,40000,N,-2,,0
+223,Priya,Smith,51,F,,125000,Yes,-2,Post-Graduate,1
+224,Emma,Brown,39,,Delhi,55000,,1,High School,0
+225,Alice,Johnson,51,,Delhi,65000,No,3,Unknown,0
+226,Alice,Smith,70,Male,???,45000,Y,,Post-Graduate,1
+227,Rahul,Brown,6,Female,New York,90000,N,2,,1
+228,Priya,Khan,67,,,95000,N,0,Post-Graduate,1
+229,John,Sharma,7,,,-5000,No,,High School,1
+230,Rahul,Sharma,51,M,Delhi,100000,,-2,Unknown,1
+231,Priya,Smith,72,Female,Mumbai,55000,N,-2,High School,1
+232,Emma,Johnson,42,M,New York,55000,No,2,Graduate,1
+233,Emma,Johnson,64,Female,,140000,Yes,2,Unknown,0
+234,Emma,Khan,15,M,Delhi,60000,,0,High School,0
+235,Emma,Smith,29,,,25000,Y,2,,0
+236,Emma,Sharma,33,,New York,90000,N,1,Unknown,1
+237,Priya,Johnson,27,Male,New York,105000,No,0,Unknown,1
+238,Priya,Smith,36,M,London,30000,Yes,2,Post-Graduate,1
+239,Bob,Johnson,29,F,???,100000,Y,4,,0
+240,Sara,Brown,38,Male,???,35000,No,,Graduate,1
+241,Alice,Johnson,57,M,Delhi,35000,No,2,High School,1
+242,Amit,Sharma,27,M,New York,85000,Y,1,Post-Graduate,0
+243,Emma,Patel,55,Male,London,60000,Yes,3,High School,1
+244,John,Khan,33,,London,60000,Yes,2,Graduate,0
+245,Amit,Khan,68,M,,140000,,-2,Graduate,0
+246,Priya,Sharma,66,,,145000,N,-2,Unknown,1
+247,John,Johnson,10,Male,London,130000,Y,-2,Graduate,1
+248,John,Smith,5,,,105000,Y,3,High School,1
+249,John,Johnson,74,Female,New York,65000,Y,-2,,0
+250,Bob,Sharma,38,F,Mumbai,120000,Yes,4,,0
+251,Priya,Khan,13,M,New York,35000,N,2,Unknown,0
+252,John,Johnson,31,F,London,75000,,-2,High School,1
+253,Emma,Khan,47,,London,,No,0,High School,1
+254,Rahul,Smith,52,M,New York,55000,No,3,Graduate,1
+255,John,Khan,56,,,25000,Y,4,High School,1
+256,Bob,Khan,15,Female,,125000,N,0,Post-Graduate,0
+257,Amit,Patel,29,Male,???,80000,Yes,0,Graduate,0
+258,Priya,Patel,8,M,London,120000,N,0,Post-Graduate,0
+259,Sara,Brown,5,Female,Delhi,95000,N,0,Unknown,0
+260,Bob,Patel,29,Female,???,-5000,Yes,2,,1
+261,John,Khan,47,M,,25000,Y,-2,Unknown,1
+262,Priya,Sharma,68,,New York,70000,N,,,1
+263,Rahul,Khan,76,Female,,65000,No,2,Unknown,0
+264,John,Sharma,45,F,New York,90000,Yes,2,High School,0
+265,Bob,Sharma,2,Female,???,100000,,4,Post-Graduate,1
+266,Alice,Patel,27,,London,55000,Y,4,,1
+267,Emma,Johnson,36,,,105000,Yes,-2,Graduate,0
+268,Sara,Smith,36,F,New York,130000,,,Post-Graduate,1
+269,Amit,Patel,26,Female,London,60000,,4,Graduate,0
+270,Bob,Patel,43,,Delhi,140000,N,-2,Post-Graduate,0
+271,Priya,Johnson,27,M,New York,55000,N,-2,Post-Graduate,0
+272,Sara,Smith,69,Male,???,,N,1,Unknown,1
+273,Sara,Khan,20,Male,Delhi,85000,Yes,,,1
+274,Sara,Brown,11,Male,Delhi,-5000,Yes,4,,0
+275,John,Brown,74,Female,Mumbai,145000,Y,,Post-Graduate,1
+276,Emma,Khan,38,F,,140000,N,2,High School,0
+277,John,Patel,6,,New York,105000,,2,High School,0
+278,Priya,Smith,72,M,Delhi,125000,No,,Graduate,0
+279,John,Patel,23,M,Mumbai,115000,Y,1,Graduate,0
+280,Alice,Sharma,47,Female,???,115000,Yes,1,Unknown,1
+281,Emma,Patel,46,Male,London,120000,Y,,Post-Graduate,0
+282,Emma,Patel,12,Female,New York,75000,Y,4,Graduate,0
+283,Priya,Khan,13,F,Delhi,110000,Y,3,Graduate,1
+284,Amit,Khan,62,F,,85000,Y,1,Post-Graduate,0
+285,Alice,Khan,200,,Mumbai,100000,No,0,Unknown,0
+286,Bob,Brown,60,,Delhi,135000,N,2,Graduate,1
+287,John,Sharma,43,F,,120000,,,Unknown,1
+288,Rahul,Khan,76,F,Delhi,30000,Y,0,,1
+289,John,Smith,68,F,New York,145000,Y,,Unknown,0
+290,Sara,Brown,5,Female,New York,130000,Y,-2,High School,1
+291,John,Johnson,37,F,New York,50000,N,2,High School,1
+292,Bob,Smith,72,M,???,100000,Yes,2,Unknown,0
+293,John,Smith,31,Male,???,75000,Yes,1,High School,0
+294,Alice,Khan,9,F,Mumbai,60000,No,1,,0
+295,Alice,Johnson,51,Male,New York,90000,Yes,0,Post-Graduate,0
+296,Emma,Johnson,29,Female,,105000,Y,-2,High School,0
+297,Priya,Brown,78,Male,Delhi,120000,Y,,High School,1
+298,Amit,Johnson,40,Female,London,80000,Y,-2,Unknown,1
+299,Rahul,Sharma,41,M,,120000,No,2,,1
+300,Sara,Khan,11,Female,???,55000,Y,0,Post-Graduate,0
+301,John,Johnson,23,Female,???,85000,Yes,3,Unknown,0
+302,John,Brown,1,,,55000,N,0,Unknown,0
+303,Bob,Sharma,46,F,???,85000,N,4,,1
+304,Priya,Patel,21,F,New York,50000,,0,Post-Graduate,1
+305,Alice,Patel,36,M,Mumbai,130000,Yes,-2,,0
+306,Rahul,Sharma,54,M,Delhi,75000,Y,4,Post-Graduate,1
+307,Emma,Brown,57,F,Mumbai,70000,N,4,,0
+308,Alice,Sharma,1,,Delhi,125000,Yes,4,Unknown,1
+309,Sara,Khan,63,F,Delhi,125000,N,3,Unknown,1
+310,Priya,Khan,54,,Mumbai,70000,Y,0,Graduate,1
+311,Sara,Patel,55,M,,140000,N,-2,High School,0
+312,Amit,Johnson,40,Male,Delhi,125000,,0,,1
+313,Emma,Brown,15,M,Mumbai,-5000,,3,Graduate,1
+314,Amit,Patel,21,M,Delhi,80000,N,2,High School,0
+315,Bob,Johnson,47,Female,London,105000,Yes,1,,1
+316,Sara,Johnson,73,Female,,25000,Yes,-2,Post-Graduate,0
+317,Bob,Khan,53,Female,New York,120000,Yes,-2,High School,0
+318,John,Smith,9,Female,Delhi,90000,N,0,Unknown,0
+319,Amit,Smith,74,,London,115000,Yes,1,Graduate,0
+320,Priya,Sharma,52,F,New York,,Y,,High School,0
+321,Sara,Khan,57,Male,New York,105000,,,High School,1
+322,Rahul,Johnson,26,M,Delhi,90000,Y,3,Unknown,0
+323,Emma,Brown,41,,Mumbai,110000,Yes,,,0
+324,Alice,Smith,35,Male,Delhi,130000,Y,-2,Post-Graduate,0
+325,Priya,Johnson,63,,London,135000,Yes,,Unknown,0
+326,Priya,Smith,25,,New York,75000,N,2,Post-Graduate,1
+327,Bob,Smith,75,M,Delhi,80000,Y,2,,0
+328,Amit,Smith,38,F,Mumbai,125000,N,2,High School,1
+329,Sara,Brown,2,Female,Delhi,70000,N,,Post-Graduate,0
+330,Sara,Khan,7,F,,40000,No,3,Graduate,1
+331,John,Brown,200,M,Mumbai,20000,Yes,4,Graduate,0
+332,John,Patel,34,M,London,135000,,4,Unknown,0
+333,Emma,Johnson,17,M,New York,30000,Yes,1,,1
+334,Bob,Khan,43,Male,Delhi,125000,,4,Unknown,0
+335,Priya,Khan,59,F,Mumbai,110000,Yes,4,Unknown,1
+336,Sara,Khan,51,F,,130000,N,2,Unknown,0
+337,Rahul,Khan,54,,Mumbai,50000,Y,2,Graduate,1
+338,Bob,Brown,24,,???,75000,Y,,Graduate,0
+339,Emma,Khan,25,,,90000,No,1,Unknown,0
+340,Emma,Sharma,71,M,London,140000,,0,Graduate,1
+341,Bob,Johnson,52,F,New York,40000,,-2,,0
+342,Emma,Khan,70,M,London,90000,,1,Unknown,0
+343,Bob,Johnson,33,Male,Delhi,55000,N,1,Graduate,0
+344,Alice,Sharma,49,,Mumbai,65000,,3,Post-Graduate,0
+345,Bob,Sharma,29,M,???,145000,Y,,Unknown,0
+346,Amit,Johnson,63,M,,95000,N,3,Unknown,0
+347,Bob,Smith,22,Male,,55000,Yes,1,,1
+348,Emma,Patel,26,Female,Mumbai,20000,,1,High School,1
+349,Sara,Smith,28,F,???,75000,,1,High School,1
+350,Amit,Smith,49,Female,Mumbai,40000,Yes,4,,0
+351,Emma,Brown,71,,Delhi,30000,,-2,,1
+352,John,Smith,-1,M,London,20000,Yes,-2,,0
+353,John,Khan,49,Male,,35000,N,3,High School,0
+354,Sara,Brown,20,Male,Delhi,55000,Y,1,,0
+355,Sara,Brown,63,F,London,30000,Yes,-2,Graduate,0
+356,Amit,Sharma,61,Female,Delhi,65000,No,2,Unknown,1
+357,Alice,Smith,49,F,???,25000,Yes,-2,Unknown,0
+358,Sara,Sharma,71,M,,70000,,,Post-Graduate,1
+359,John,Johnson,1,F,Mumbai,140000,N,,Post-Graduate,0
+360,Bob,Patel,13,Male,Mumbai,65000,N,-2,Unknown,1
+361,Emma,Brown,51,Male,London,120000,Yes,2,Graduate,1
+362,John,Johnson,56,,New York,85000,Y,,High School,1
+363,John,Johnson,62,,???,50000,No,4,High School,1
+364,Alice,Khan,32,M,London,,N,-2,Graduate,1
+365,Amit,Patel,30,Female,New York,,,4,High School,1
+366,Amit,Johnson,29,F,Delhi,25000,,-2,,0
+367,Priya,Johnson,49,M,???,60000,Y,0,Unknown,1
+368,Alice,Patel,45,,Delhi,95000,N,0,Unknown,0
+369,Bob,Patel,30,F,,80000,Yes,0,Graduate,1
+370,Amit,Johnson,16,,???,60000,,,High School,0
+371,Emma,Patel,40,F,New York,115000,Y,4,Post-Graduate,1
+372,Sara,Johnson,19,Female,,35000,N,4,Post-Graduate,1
+373,Alice,Johnson,18,M,Mumbai,125000,N,4,High School,0
+374,Sara,Khan,1,F,New York,65000,N,2,Post-Graduate,1
+375,John,Smith,78,Male,London,145000,N,4,Graduate,1
+376,Emma,Johnson,47,Male,Mumbai,145000,N,2,Graduate,1
+377,Emma,Sharma,66,F,Mumbai,125000,,0,High School,0
+378,John,Brown,38,F,London,75000,Y,0,Post-Graduate,1
+379,Alice,Smith,51,F,???,100000,N,,Graduate,0
+380,John,Smith,63,Male,Mumbai,85000,No,-2,Graduate,1
+381,Sara,Smith,4,Male,New York,85000,No,0,,1
+382,Priya,Khan,1,F,,140000,Y,-2,,0
+383,Emma,Johnson,8,,Mumbai,25000,Yes,-2,Graduate,1
+384,Rahul,Khan,29,,New York,120000,Yes,,High School,1
+385,Rahul,Johnson,55,Female,Delhi,140000,Yes,1,Unknown,0
+386,Sara,Khan,3,M,New York,115000,No,1,Unknown,1
+387,Bob,Khan,32,,,70000,Yes,3,Graduate,0
+388,Amit,Brown,10,Male,New York,95000,,,Graduate,0
+389,John,Sharma,74,,London,110000,N,3,Graduate,0
+390,John,Khan,34,Female,,130000,No,3,High School,1
+391,Bob,Brown,55,Female,???,45000,Y,1,,0
+392,Bob,Patel,32,M,Delhi,135000,Y,,Graduate,0
+393,Sara,Sharma,50,,London,110000,N,1,Graduate,1
+394,Sara,Khan,7,Male,???,40000,No,3,Post-Graduate,0
+395,Bob,Smith,8,Male,New York,145000,Yes,,High School,1
+396,Emma,Patel,65,F,,35000,Yes,3,Graduate,1
+397,Sara,Patel,57,Male,Delhi,90000,,4,Post-Graduate,1
+398,Priya,Brown,67,M,London,35000,,-2,Unknown,1
+399,Sara,Patel,59,M,???,115000,Yes,,Graduate,0
+400,John,Sharma,72,Male,???,65000,Y,,Graduate,0
+401,Sara,Khan,54,Male,Delhi,135000,Y,-2,Post-Graduate,0
+402,Emma,Khan,67,F,New York,125000,,3,High School,0
+403,Bob,Smith,51,Male,Delhi,30000,N,4,Graduate,0
+404,John,Brown,8,F,???,145000,Yes,2,Unknown,1
+405,Sara,Smith,34,F,Mumbai,40000,,-2,Graduate,0
+406,Emma,Patel,35,Male,London,45000,,1,Unknown,0
+407,Priya,Smith,78,Female,Delhi,120000,Yes,3,,0
+408,Sara,Sharma,32,Female,???,125000,Yes,-2,,1
+409,Emma,Khan,46,F,New York,55000,Y,-2,Unknown,1
+410,Priya,Patel,16,Male,???,50000,N,,High School,0
+411,Bob,Smith,68,Female,New York,120000,N,1,Graduate,1
+412,Sara,Brown,37,Male,Delhi,65000,Yes,1,Graduate,0
+413,Priya,Sharma,54,Male,New York,45000,No,1,,0
+414,John,Sharma,14,Male,,85000,,-2,Unknown,1
+415,Bob,Smith,55,,,35000,,2,Graduate,1
+416,John,Khan,48,Male,,-5000,Yes,0,Graduate,0
+417,Rahul,Smith,200,,Mumbai,140000,No,3,High School,0
+418,Alice,Patel,7,F,Delhi,80000,Y,0,Post-Graduate,1
+419,Sara,Smith,74,Female,???,115000,Yes,-2,,0
+420,Priya,Sharma,7,Female,???,100000,Yes,0,,1
+421,Alice,Smith,33,Female,Mumbai,130000,,-2,Post-Graduate,0
+422,Alice,Khan,23,Female,New York,50000,Yes,0,Graduate,1
+423,Priya,Brown,19,Female,Mumbai,35000,Yes,1,High School,0
+424,Bob,Johnson,19,Female,New York,85000,Yes,4,High School,0
+425,Sara,Smith,36,Female,New York,30000,,1,,1
+426,Rahul,Khan,29,F,London,135000,Y,1,High School,0
+427,John,Khan,60,Male,???,40000,Y,,Post-Graduate,0
+428,Emma,Brown,200,M,,95000,Yes,,Graduate,1
+429,John,Sharma,2,,New York,145000,,0,Post-Graduate,0
+430,Emma,Khan,1,M,London,130000,Y,-2,Unknown,0
+431,John,Khan,47,M,???,115000,Y,1,,0
+432,Priya,Khan,69,Male,,35000,Y,0,High School,1
+433,Rahul,Khan,20,Male,New York,135000,,,Unknown,1
+434,Sara,Patel,11,Male,New York,135000,,4,High School,1
+435,Emma,Patel,2,Female,Mumbai,25000,Yes,3,Graduate,0
+436,Sara,Sharma,67,F,Mumbai,105000,N,0,Graduate,0
+437,Sara,Smith,12,Female,???,110000,Y,4,Graduate,0
+438,Sara,Khan,20,F,,-5000,N,3,High School,0
+439,Amit,Brown,5,F,New York,-5000,,2,Unknown,1
+440,Bob,Smith,37,M,???,110000,,0,Graduate,0
+441,John,Brown,38,M,???,100000,,0,Unknown,0
+442,Sara,Smith,9,F,Delhi,85000,N,2,High School,0
+443,John,Sharma,53,F,Mumbai,110000,,2,Unknown,1
+444,Sara,Khan,44,Female,,125000,Yes,0,High School,0
+445,Emma,Khan,24,Female,New York,135000,,2,High School,0
+446,Bob,Johnson,-1,M,???,80000,No,1,,0
+447,Bob,Brown,74,Male,New York,75000,N,3,High School,0
+448,Priya,Smith,30,F,Delhi,145000,No,3,High School,0
+449,Amit,Smith,59,Female,,45000,,3,Post-Graduate,1
+450,Priya,Patel,-1,M,???,120000,Yes,1,Graduate,0
+451,Priya,Johnson,-1,Female,New York,35000,Y,-2,,0
+452,Priya,Patel,14,F,Mumbai,110000,,2,,0
+453,Priya,Patel,9,F,Delhi,95000,Yes,4,,0
+454,Priya,Patel,40,,,80000,N,2,Post-Graduate,0
+455,Rahul,Brown,66,Male,Delhi,35000,No,0,High School,0
+456,Bob,Brown,25,,Mumbai,130000,No,,Graduate,0
+457,Priya,Sharma,73,M,,100000,No,3,Unknown,0
+458,Sara,Sharma,22,Female,Delhi,130000,N,2,High School,0
+459,Bob,Patel,4,M,London,20000,Yes,4,Post-Graduate,0
+460,Bob,Johnson,26,F,Mumbai,105000,N,0,High School,1
+461,Alice,Smith,58,,Mumbai,115000,No,1,High School,1
+462,Rahul,Brown,29,,Mumbai,100000,,-2,Post-Graduate,1
+463,Priya,Johnson,37,,London,,Y,1,,1
+464,John,Khan,75,M,London,-5000,N,4,,0
+465,Emma,Brown,70,F,New York,,N,0,Graduate,1
+466,Amit,Brown,18,Female,???,90000,Yes,3,Graduate,1
+467,Sara,Sharma,42,Female,Delhi,70000,Yes,2,,0
+468,John,Smith,41,M,New York,140000,N,0,Unknown,1
+469,Rahul,Smith,38,,Delhi,-5000,No,-2,High School,1
+470,Emma,Khan,34,Male,???,125000,Y,1,Unknown,0
+471,Rahul,Khan,17,M,London,80000,Yes,-2,High School,0
+472,Sara,Brown,37,M,???,20000,No,-2,,0
+473,Bob,Patel,25,F,London,100000,,4,Graduate,1
+474,Emma,Sharma,76,Female,???,45000,Yes,4,Graduate,1
+475,Bob,Sharma,27,M,New York,35000,No,2,Unknown,0
+476,Sara,Brown,57,M,,115000,No,4,Graduate,0
+477,John,Johnson,31,,New York,95000,Y,4,,1
+478,Sara,Patel,6,,Delhi,90000,Y,0,Unknown,0
+479,John,Brown,40,Male,New York,,,3,High School,1
+480,Emma,Patel,12,F,Mumbai,90000,No,2,Graduate,0
+481,Emma,Patel,53,Male,Delhi,45000,No,0,Post-Graduate,0
+482,Priya,Patel,71,,???,90000,Y,3,Graduate,1
+483,Rahul,Brown,10,Female,Delhi,85000,Yes,-2,High School,0
+484,Priya,Sharma,45,,,-5000,Yes,0,Unknown,0
+485,Rahul,Sharma,17,F,London,70000,N,,High School,0
+486,Priya,Patel,26,,???,50000,Y,0,Post-Graduate,1
+487,Bob,Johnson,62,F,Delhi,60000,N,4,,0
+488,Emma,Smith,46,F,???,145000,Y,3,Graduate,0
+489,John,Brown,64,F,???,95000,,2,Unknown,0
+490,Rahul,Smith,2,F,???,40000,No,2,,0
+491,Sara,Johnson,54,F,London,140000,,3,High School,0
+492,Rahul,Brown,65,Female,New York,115000,Y,4,Unknown,0
+493,John,Patel,51,Male,???,65000,No,1,,1
+494,Priya,Sharma,53,M,Mumbai,105000,Yes,0,Unknown,1
+495,Rahul,Smith,36,Male,,30000,Yes,4,Post-Graduate,0
+496,Amit,Khan,26,F,London,80000,N,,Post-Graduate,1
+497,Bob,Khan,29,Female,Delhi,70000,Y,-2,Graduate,1
+498,Emma,Johnson,21,,London,100000,Y,3,Graduate,0
+499,John,Patel,11,Female,Delhi,125000,Yes,0,Post-Graduate,1
+500,Emma,Smith,40,F,London,80000,,2,Unknown,1
