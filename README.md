@@ -1,97 +1,174 @@
-# AI-ML-Internship :- 
+# 🤖 AI-ML Internship (Day-Wise Progress)
 
-**Day 1 – Orientation + AI Overview**
-. Company & internship overview
-. What is AI, ML, DL, LLM
-. Real-world use cases (Insurance, Finance, Chatbots)
-. Roadmap explanation
-. Install Python, VS Code, Git
-. Create GitHub account
-✔ Internship repo created
+This repository documents my **AI & Machine Learning Internship**, organized **day-by-day** with learning topics and hands-on tasks.
 
-**Day 2 – Python Basics**
-. Variables, data types
-. Conditions & loops
-. Functions
-. Write basic Python program
+---
 
-**Day 3 – Advanced Python**
-. Lists, tuples, dicts, sets
-. List/dict comprehensions
-. Lambda functions
-. Data manipulation exercises
+## 📅 Day-Wise Breakdown
 
+---
 
-**Day 4 – Python for ML**
-. File handling
-. Exception handling
-. Virtual environments
-. pip & requirements.txt
-. Create virtual env
-. Install ML libraries
+### 🟢 Day 1 – Orientation & AI Overview
+- Company & internship overview  
+- Introduction to **AI, ML, DL, LLM**  
+- Real-world use cases:
+  - Insurance
+  - Finance
+  - Chatbots  
+- Internship roadmap explanation  
 
+**Tasks Completed**
+- Installed Python, VS Code & Git  
+- Created GitHub account  
+- ✅ Internship repository created  
 
-**Day 5 – Git & Linux Basics**
-. Git workflow (clone, commit, push)
-. Branching
-. Linux commands
-. Push Python scripts to GitHub
+---
 
-**Day 6 – NumPy**
-. Arrays, indexing
-. Matrix operations
-. Numerical computation notebook
+### 🟢 Day 2 – Python Basics
+- Variables & data types  
+- Conditional statements & loops  
+- Functions  
 
+**Tasks Completed**
+- Wrote basic Python programs  
 
-**Day 7 – Statistics**
-. Mean, median, mode
-. Variance, std deviation
-. Normal distribution
-. Stats calculations using Python
+---
 
-**Day 8 – Probability & ML Intuition**
-. Probability basics
-. Bias vs Variance
-. Gradient Descent intuition
-. Visualize gradient descent
+### 🟢 Day 3 – Advanced Python
+- Lists, tuples, dictionaries & sets  
+- List / dictionary comprehensions  
+- Lambda functions  
 
+**Tasks Completed**
+- Data manipulation exercises  
 
-**Day 9 – Pandas Basics**
-. DataFrames
-. Reading CSV/Excel
-. Filtering, sorting
-. Load & explore dataset
+---
 
+### 🟢 Day 4 – Python for Machine Learning
+- File handling  
+- Exception handling  
+- Virtual environments  
+- `pip` & `requirements.txt`  
 
-**Day 10 – Data Cleaning**
-. Missing values
-. Encoding categorical data
-. Feature scaling
-. Clean real dataset
+**Tasks Completed**
+- Created virtual environment  
+- Installed ML libraries  
 
-**Day 11 – Data Visualization**
-. Matplotlib
-. Seaborn
-. Create plots (hist, box, heatmap)
+---
 
-**Day 12 – Exploratory Data Analysis**
-. Finding patterns
-. Correlations
-. Outliers
-. EDA notebook
+### 🟢 Day 5 – Git & Linux Basics
+- Git workflow (`clone`, `commit`, `push`)  
+- Branching  
+- Basic Linux commands  
 
-**Day 13 – Feature Engineering**
-. Feature creation
-. Feature selection
+**Tasks Completed**
+- Pushed Python scripts to GitHub  
 
-**Day 14 – Data Pipeline**
-. Data → Clean → Features → Model
-. Build preprocessing pipeline
+---
 
-**Day 15 – Review & Assessment**
-. Python test
-. Pandas & EDA evaluation
+### 🟢 Day 6 – NumPy
+- NumPy arrays & indexing  
+- Matrix operations  
 
-**Day 16 - ML Basics**
-. Supervised vs Unsupervised
-. Train/test split
+**Tasks Completed**
+- Numerical computation notebook  
+
+---
+
+### 🟢 Day 7 – Statistics
+- Mean, Median & Mode  
+- Variance & Standard Deviation  
+- Normal distribution  
+
+**Tasks Completed**
+- Statistical calculations using Python  
+
+---
+
+### 🟢 Day 8 – Probability & ML Intuition
+- Probability basics  
+- Bias vs Variance  
+- Gradient Descent intuition  
+
+**Tasks Completed**
+- Visualized Gradient Descent  
+
+---
+
+### 🟢 Day 9 – Pandas Basics
+- DataFrames  
+- Reading CSV / Excel files  
+- Filtering & sorting data  
+
+**Tasks Completed**
+- Loaded and explored dataset  
+
+---
+
+### 🟢 Day 10 – Data Cleaning
+- Handling missing values  
+- Encoding categorical variables  
+- Feature scaling  
+
+**Tasks Completed**
+- Cleaned real-world dataset  
+
+---
+
+### 🟢 Day 11 – Data Visualization
+- Matplotlib  
+- Seaborn  
+
+**Tasks Completed**
+- Created:
+  - Histogram
+  - Box plot
+  - Heatmap  
+
+---
+
+### 🟢 Day 12 – Exploratory Data Analysis (EDA)
+- Pattern discovery  
+- Correlation analysis  
+- Outlier detection  
+
+**Tasks Completed**
+- Complete EDA notebook  
+
+---
+
+### 🟢 Day 13 – Feature Engineering
+- Feature creation  
+- Feature selection  
+
+---
+
+### 🟢 Day 14 – Data Pipeline
+- Data → Cleaning → Features → Model  
+
+**Tasks Completed**
+- Built preprocessing pipeline  
+
+---
+
+### 🟢 Day 15 – Review & Assessment
+- Python test  
+- Pandas & EDA evaluation  
+
+---
+
+### 🟢 Day 16 – Machine Learning Basics
+- Supervised vs Unsupervised Learning  
+- Train-test split  
+
+---
+
+## ✅ Status
+🚧 Internship in Progress  
+📈 Updating daily with new tasks and projects
+
+---
+
+## 👤 Author
+**Manav Katrodiya**  
+AI & ML Intern
