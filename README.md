@@ -159,7 +159,16 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ### 🟢 Day 16 – Machine Learning Basics
 - Supervised vs Unsupervised Learning  
-- Train-test split  
+- Train-test split
+
+---
+
+### 🟢 Day 17 - Linear Regression
+- Theory
+- Implementation
+- Predict numeric value
+- Simple Linear Regression
+- Polynomial Linear Regression
 
 ---
 
