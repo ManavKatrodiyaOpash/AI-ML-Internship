@@ -16,8 +16,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
   - Finance
   - Chatbots  
 - Internship roadmap explanation  
-
-**Tasks Completed**
 - Installed Python, VS Code & Git  
 - Created GitHub account  
 - ✅ Internship repository created  
@@ -28,8 +26,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Variables & data types  
 - Conditional statements & loops  
 - Functions  
-
-**Tasks Completed**
 - Wrote basic Python programs  
 
 ---
@@ -38,8 +34,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Lists, tuples, dictionaries & sets  
 - List / dictionary comprehensions  
 - Lambda functions  
-
-**Tasks Completed**
 - Data manipulation exercises  
 
 ---
@@ -49,8 +43,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Exception handling  
 - Virtual environments  
 - `pip` & `requirements.txt`  
-
-**Tasks Completed**
 - Created virtual environment  
 - Installed ML libraries  
 
@@ -60,8 +52,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Git workflow (`clone`, `commit`, `push`)  
 - Branching  
 - Basic Linux commands  
-
-**Tasks Completed**
 - Pushed Python scripts to GitHub  
 
 ---
@@ -69,8 +59,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 ### 🟢 Day 6 – NumPy
 - NumPy arrays & indexing  
 - Matrix operations  
-
-**Tasks Completed**
 - Numerical computation notebook  
 
 ---
@@ -79,8 +67,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Mean, Median & Mode  
 - Variance & Standard Deviation  
 - Normal distribution  
-
-**Tasks Completed**
 - Statistical calculations using Python  
 
 ---
@@ -89,8 +75,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Probability basics  
 - Bias vs Variance  
 - Gradient Descent intuition  
-
-**Tasks Completed**
 - Visualized Gradient Descent  
 
 ---
@@ -99,8 +83,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - DataFrames  
 - Reading CSV / Excel files  
 - Filtering & sorting data  
-
-**Tasks Completed**
 - Loaded and explored dataset  
 
 ---
@@ -109,8 +91,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Handling missing values  
 - Encoding categorical variables  
 - Feature scaling  
-
-**Tasks Completed**
 - Cleaned real-world dataset  
 
 ---
@@ -118,8 +98,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 ### 🟢 Day 11 – Data Visualization
 - Matplotlib  
 - Seaborn  
-
-**Tasks Completed**
 - Created:
   - Histogram
   - Box plot
@@ -131,8 +109,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Pattern discovery  
 - Correlation analysis  
 - Outlier detection  
-
-**Tasks Completed**
 - Complete EDA notebook  
 
 ---
@@ -145,8 +121,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ### 🟢 Day 14 – Data Pipeline
 - Data → Cleaning → Features → Model  
-
-**Tasks Completed**
 - Built preprocessing pipeline  
 
 ---
