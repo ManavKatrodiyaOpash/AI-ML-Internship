@@ -99,9 +99,13 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Matplotlib  
 - Seaborn  
 - Created:
-  - Histogram
+  - Line plot
+  - Bar plot  
   - Box plot
-  - Heatmap  
+  - Scatter plot
+  - Histogram
+  - Pie chart
+  - Heatmap
 
 ---
 
