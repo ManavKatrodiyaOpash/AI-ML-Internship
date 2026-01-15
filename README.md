@@ -147,6 +147,23 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Predict numeric value
 - Simple Linear Regression
 - Polynomial Linear Regression
+- Multiple Linear Regression
+
+---
+
+### 🟢 Day 18 - Logistic Regression
+- Classification
+- Accuracy
+- Precision
+- Recall
+- Perceptron Technique
+- Sigmoid Function
+
+---
+
+### 🟢 Day 19 - Model Evaluation
+- Confusion Matrix
+- ROC-AUC 
 
 ---
 
