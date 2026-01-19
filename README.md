@@ -169,8 +169,8 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ### 🟢 Day 20 - Mini ML Project
 - End-to-end simple ML model
-  - placement prediction
-  - hr attrition prediction
+  - Student Placement prediction
+  - HR Attrition prediction
   - ML assignment
 
 ---
