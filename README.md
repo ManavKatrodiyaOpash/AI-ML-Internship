@@ -175,6 +175,12 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
+### 🟢 Day 21 - Decision Trees
+- Decision Tree Classifier
+- Decision Tree Regression
+
+---
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
