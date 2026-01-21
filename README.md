@@ -181,6 +181,16 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
+### 🟢 Day 22 - Random Forest
+- Random Forest Classifier
+- Random Forest Regressor
+- Grid Search CV
+- Randomise Search CV
+- OOB Evaluation (Out Of Bag)
+- Feature Importance
+
+---
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
