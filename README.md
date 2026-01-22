@@ -191,6 +191,12 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
+### 🟢 Day 23 - XGBoost (Intro)
+- XGBoost Classification
+- XGBoost Regression
+
+---
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
