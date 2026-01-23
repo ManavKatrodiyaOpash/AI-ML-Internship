@@ -214,6 +214,22 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 ### 🟢 Day 25 – Assignment
 - ✔ Compare models on same dataset
 
+- Model Comparison on Classification
+  - Logistic Regression
+  - Decision Tree Classifier
+  - Random Forest Classifier
+  - XGBoost Classifier
+  - ADABoost Classifier
+  - GradiantBoost Classifier
+
+- Model Comparison on Regression
+  - Linear Regression
+  - Decision Tree Regressor
+  - Random Forest Regressor
+  - XGBoost Regressor
+  - ADABoost Regressor
+  - GradiantBoost Regressor
+
 ---
 
 ## ✅ Status
