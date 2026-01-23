@@ -197,6 +197,25 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
+### 🟢 Day 24 - Model Comparison
+- Model Comparison on Classification
+  - Logistic Regression
+  - Decision Tree Classifier
+  - Random Forest Classifier
+  - XGBoost Classifier
+- Model Comparison on Regression
+  - Linear Regression
+  - Decision Tree Regressor
+  - Random Forest Regressor
+  - XGBoost Regressor
+
+---
+
+### 🟢 Day 25 – Assignment
+- ✔ Compare models on same dataset
+
+---
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
