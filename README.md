@@ -232,6 +232,21 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
+### 🟢 Day 26-28 - Clustering
+- K-Means Clustering
+  - Centroids
+  - Labels
+  - Euclidean Distance
+  - Elbow Method
+
+- K Nearest Neighbor
+  - Euclidean Distance
+
+- DBScan Clustering
+- Hierarchical Clustering
+
+---
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
