@@ -239,11 +239,32 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
   - Euclidean Distance
   - Elbow Method
 
-- K Nearest Neighbor
+- K-Nearest-Neighbor Classifier
   - Euclidean Distance
+  - n_neighbors
 
 - DBScan Clustering
+  - epsilon
+  - core point
+  - border point
+  - noise point
+  - density point
+  - Euclidean Distance
+
 - Hierarchical Clustering
+  - Proximity Matrix
+  - Agglomerative (Bottom - Up Approch)
+    - Single Link (Min)
+    - Complete Link (Max)
+    - Group Average
+    - Ward
+  - Divisive (Top - Down Approch)
+  - Euclidean Distance
+
+---
+
+### 🟢 Day 29 - PCA
+- Principle Component Analysis
 
 ---
 
