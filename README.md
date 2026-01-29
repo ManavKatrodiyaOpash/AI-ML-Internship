@@ -232,6 +232,45 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
+### 🟢 Day 26-28 - Clustering
+- K-Means Clustering
+  - Centroids
+  - Labels
+  - Euclidean Distance
+  - Elbow Method
+
+- K-Nearest-Neighbor Classifier
+  - Euclidean Distance
+  - n_neighbors
+
+- DBScan Clustering
+  - epsilon
+  - core point
+  - border point
+  - noise point
+  - density point
+  - Euclidean Distance
+
+- Hierarchical Clustering
+  - Proximity Matrix
+  - Agglomerative (Bottom - Up Approch)
+    - Single Link (Min)
+    - Complete Link (Max)
+    - Group Average
+    - Ward
+  - Divisive (Top - Down Approch)
+  - Euclidean Distance
+
+---
+
+### 🟢 Day 29 - PCA
+- Principle Component Analysis
+- Eigon vector
+- Eigon value
+- pca digit image ploting
+
+---
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
