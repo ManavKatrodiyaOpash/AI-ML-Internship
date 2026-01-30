@@ -232,7 +232,7 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
-### 🟢 Day 26-28 - Clustering
+### 🟢 Day 26-27-28 - Clustering
 - K-Means Clustering
   - Centroids
   - Labels
@@ -268,6 +268,16 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Eigon vector
 - Eigon value
 - pca digit image ploting
+
+---
+
+### 🟢 Day 30 - Mini Project
+✔ Customer segmentation
+
+- KMeans
+- Recency
+- Frequency
+- Monetary
 
 ---
 
