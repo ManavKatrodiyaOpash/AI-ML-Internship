@@ -281,6 +281,11 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
+### 🟢 Day 31 - Cross Validation
+- KFold
+- StratifiedKFold
+- LOO (Leave One Out)
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
