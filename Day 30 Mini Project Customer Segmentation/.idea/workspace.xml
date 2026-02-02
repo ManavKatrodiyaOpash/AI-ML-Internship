@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a43ee41-8725-4b34-ad0f-ac27428b409a" name="Changes" comment="" />
+    <list default="true" id="5a43ee41-8725-4b34-ad0f-ac27428b409a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/customer_segmentation_project_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/customer_segmentation_project_2.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769747710238</updated>
-      <workItem from="1769747711950" duration="19081000" />
+      <workItem from="1769747711950" duration="19685000" />
     </task>
     <servers />
   </component>
