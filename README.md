@@ -286,6 +286,11 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - StratifiedKFold
 - LOO (Leave One Out)
 
+---
+
+### 🟢 Day 32 - Hyperparameter Tuning
+- Optuna
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
