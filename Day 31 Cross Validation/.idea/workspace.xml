@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1000673-1851-4831-a88a-18f45f64e50b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Day 30 Mini Project Customer Segmentation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 30 Mini Project Customer Segmentation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day 30 Mini Project Customer Segmentation/customer_segmentation_project_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 30 Mini Project Customer Segmentation/customer_segmentation_project_2.ipynb" afterDir="false" />
+    <list default="true" id="9eda8a67-6f7c-4c25-ab4f-0ecd76dd473e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KFold.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/KFold.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StratifiedKFold.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/StratifiedKFold.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cross_validation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cross_validation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cross_validation_tasks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cross_validation_tasks.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +16,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
       </list>
     </option>
@@ -21,11 +23,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="396EiZ0RxUp5NrOZjTQCZgDDIIa" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3990SMnNQOqV8t3hkmePu0PhVSi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,14 +35,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.cv_classification.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "MTFeaturesSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "MTFeaturesSettingsConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -52,13 +50,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a1000673-1851-4831-a88a-18f45f64e50b" name="Changes" comment="" />
-      <created>1770008250995</created>
+      <changelist id="9eda8a67-6f7c-4c25-ab4f-0ecd76dd473e" name="Changes" comment="" />
+      <created>1770092979932</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1770008250995</updated>
-      <workItem from="1770008252511" duration="45000" />
-      <workItem from="1770008310552" duration="71000" />
+      <updated>1770092979932</updated>
     </task>
     <servers />
   </component>
