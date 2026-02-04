@@ -294,8 +294,14 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 ---
 
 ### 🟢 Day 33 – GridSearch / RandomSearch
-- GridSearch cv
-- RandomSearch cv
+- GridSearch CV
+- RandomSearch CV
+
+---
+
+### Day 34 - Feature Importance
+- Feature importance
+- Permutaion importance
 
 ---
 
