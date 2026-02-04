@@ -296,6 +296,7 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 ### 🟢 Day 33 – GridSearch / RandomSearch
 - GridSearch CV
 - RandomSearch CV
+- Bayesian CV
 
 ---
 
