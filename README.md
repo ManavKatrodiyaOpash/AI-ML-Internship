@@ -300,9 +300,16 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
-### Day 34 - Feature Importance
-- Feature importance
-- Permutaion importance
+### 🟢 Day 34 - Feature Importance
+- Feature Importance
+- Permutaion Importance
+
+---
+
+### 🟢 Day 35 – Optimization Assignment
+- Cross Validation
+- RandomSearch CV
+- Feature Importance
 
 ---
 
