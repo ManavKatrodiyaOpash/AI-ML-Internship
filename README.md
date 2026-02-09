@@ -317,7 +317,13 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Movie Recommendation System
   - Preprocessing
   - Vectorization
-
+- House Prediction
+  - Linear Regression
+  - Standard Scaler
+  - Lasso Regression
+  - Ridge Regression
+  - Column Transform
+  - Pipeline
 ---
 
 ## ✅ Status
