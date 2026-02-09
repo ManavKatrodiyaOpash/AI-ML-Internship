@@ -313,6 +313,13 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
+### 🟢 Day 36-37-38-39 ML Mini Project
+- Movie Recommendation System
+  - Preprocessing
+  - Vectorization
+
+---
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
