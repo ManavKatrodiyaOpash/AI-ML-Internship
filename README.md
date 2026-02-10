@@ -313,10 +313,11 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
-### 🟢 Day 36-37-38-39 ML Mini Project
+### 🟢 Day 36-37-38-39 - ML Mini Project
 - Movie Recommendation System
   - Preprocessing
   - Vectorization
+
 - House Prediction
   - Linear Regression
   - Standard Scaler
@@ -324,6 +325,17 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
   - Ridge Regression
   - Column Transform
   - Pipeline
+
+- Loan Approval Prediction
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - Support Vector Classifier
+  - XGBoost
+  - KFold,
+  - StratifiedKFold,
+  - GridSearchCV
+
 ---
 
 ## ✅ Status
