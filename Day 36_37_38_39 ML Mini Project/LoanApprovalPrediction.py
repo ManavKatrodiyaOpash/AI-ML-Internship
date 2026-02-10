@@ -1,6 +1,8 @@
 # %% [markdown]
 # # Importing Libraries
 # %%
+import pickle
+
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
@@ -60,11 +62,11 @@ df.dtypes
 # %%
 x = df.drop("loan_status", axis=1)
 y = df["loan_status"].map({
-    "Approved" : 1,
-    "Rejected" : 0
+    "Approved": 1,
+    "Rejected": 0
 }).astype(int)
 # %%
-x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2,random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 # %%
 x
 # %%
@@ -74,8 +76,8 @@ x_train
 # %%
 y_train
 # %%
-num_col = x.select_dtypes(["int64","float64"]).columns
-cat_col = x.select_dtypes("str").columns
+num_col = x.select_dtypes(["int64", "float64"]).columns
+cat_col = x.select_dtypes(include="object").columns
 # %%
 num_pipeline = Pipeline(steps=[
     ("imputer", SimpleImputer(strategy="median")),
@@ -132,7 +134,7 @@ for name, model_name in models.items():
         "Accuracy Score": accuracy,
         "Precision Score": precision,
         "Recall Score": recall,
-        "F1 Score" : f1,
+        "F1 Score": f1,
         "ROC AUC Score": roc_auc,
     })
 
@@ -141,11 +143,11 @@ for name, model_name in models.items():
         importance = pipeline.named_steps["model"].feature_importances_
 
         feature_importance_df = pd.DataFrame({
-            "Feature" : feature_names,
-            "Importance" : importance,
+            "Feature": feature_names,
+            "Importance": importance,
         }).sort_values(by="Importance", ascending=False)
 
-        plt.figure(figsize=(8,5))
+        plt.figure(figsize=(8, 5))
         plt.barh(
             feature_importance_df['Feature'],
             feature_importance_df['Importance'],
@@ -165,8 +167,8 @@ for name, model_name in models.items():
     plt.tight_layout()
     plt.show()
 
-    print("*"*50)
-    print("*"*50)
+    print("*" * 50)
+    print("*" * 50)
 
 df_result = pd.DataFrame(result)
 # %%
@@ -180,15 +182,15 @@ df_result.sort_values(by=["Accuracy Score", "Precision Score"], ascending=False)
 # # Hyperparameter Tuning
 # %%
 cv_models = {
-    "KFold" : KFold(n_splits=5, shuffle=True, random_state=42),
-    "Stratified KFold" : StratifiedKFold(n_splits=5, shuffle=True, random_state=42),
+    "KFold": KFold(n_splits=5, shuffle=True, random_state=42),
+    "Stratified KFold": StratifiedKFold(n_splits=5, shuffle=True, random_state=42),
 }
 # %%
 model = XGBClassifier()
 # %%
 final_pipeline = Pipeline(steps=[
-        ("preprocessor", preprocessor),
-        ("model", model),
+    ("preprocessor", preprocessor),
+    ("model", model),
 ])
 # %%
 cv_result = []
@@ -234,7 +236,7 @@ model = XGBClassifier(
 gridcv = GridSearchCV(
     estimator=final_pipeline,
     param_grid=param_grid,
-    cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42),
+    cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42),
     scoring="accuracy",
     n_jobs=-1,
     verbose=1,
@@ -260,12 +262,12 @@ final_accuracy, final_precision, final_recall, final_f1, final_roc_auc
 print(classification_report(y_test, final_y_pred))
 # %%
 df_final_score = pd.DataFrame({
-    "Model" : "XGBoost",
-    "Accuracy Score" : final_accuracy,
-    "Precision Score" : final_precision,
-    "Recall Score" : final_recall,
-    "F1 Score" : final_f1,
-    "ROC AUC Score" : final_roc_auc,
+    "Model": "XGBoost",
+    "Accuracy Score": final_accuracy,
+    "Precision Score": final_precision,
+    "Recall Score": final_recall,
+    "F1 Score": final_f1,
+    "ROC AUC Score": final_roc_auc,
 }, index=[0])
 # %%
 df_final_score
@@ -276,3 +278,60 @@ disp.plot(cmap="Blues")
 plt.title("Final Confusion Matrix")
 plt.tight_layout()
 plt.show()
+# %% [markdown]
+# # Final Prediction
+# %%
+x_train
+# %%
+x_train.columns
+# %%
+def predict_loan_approval(
+        no_of_dependents,
+        graduation,
+        self_employed,
+        income_annum,
+        loan_amount,
+        loan_term,
+        cibil_score,
+        residential_assets_value,
+        commercial_assets_value,
+        luxury_assets_value,
+        bank_asset_value
+):
+    prediction = [no_of_dependents, graduation, self_employed, income_annum, loan_amount, loan_term, cibil_score,
+                  residential_assets_value, commercial_assets_value, luxury_assets_value, bank_asset_value]
+
+    prediction = pd.DataFrame([prediction], columns=x.columns)
+
+    if best_model.predict(prediction)[0] == 1:
+        print("The loan is Approved.")
+    else:
+        print("The loan is Rejected.")
+# %%
+predict_loan_approval(
+    no_of_dependents=3,
+    graduation=1,
+    self_employed=1,
+    income_annum=500000,
+    loan_amount=2500000,
+    loan_term=8,
+    cibil_score=720,
+    residential_assets_value=4000000,
+    commercial_assets_value=1500000,
+    luxury_assets_value=700000,
+    bank_asset_value=35000
+)
+# %%
+predict_loan_approval(
+    no_of_dependents=3,
+    graduation=1,
+    self_employed=1,
+    income_annum=300000,
+    loan_amount=1000000,
+    loan_term=10,
+    cibil_score=500,
+    residential_assets_value=1500000,
+    commercial_assets_value=0,
+    luxury_assets_value=100000,
+    bank_asset_value=500000
+)
