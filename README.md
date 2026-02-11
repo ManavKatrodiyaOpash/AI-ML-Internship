@@ -317,6 +317,8 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Movie Recommendation System
   - Preprocessing
   - Vectorization
+  - Count Vector
+  - Porter Stemmer
 
 - House Prediction
   - Linear Regression
@@ -328,13 +330,18 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 - Loan Approval Prediction
   - Logistic Regression
-  - Decision Tree
-  - Random Forest
+  - Decision Tree Classidier
+  - Random Forest Clssifier
   - Support Vector Classifier
-  - XGBoost
+  - XGBoost Classifier
   - KFold,
   - StratifiedKFold,
   - GridSearchCV
+
+- Book Recommendation System
+  - Pivot Table
+  - Sparse Matrix
+  - Nearest Neighbour
 
 ---
 
