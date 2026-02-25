@@ -345,6 +345,92 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 
 ---
 
+### 🟢 Day 41 - Neural Network Basics
+- Introduction to Neural Networks
+- Perceptron
+- Forward Propagation
+- Backpropagation intuition
+- Loss Functions
+- Optimizers
+
+---
+
+### 🟢 Day 42 – Activation Functions
+- Sigmoid
+- ReLU
+- Tanh
+- Softmax
+- Vanishing Gradient Problem
+
+---
+
+### 🟢 Day 43 – PyTorch
+- Tensors
+- Dataset & DataLoader
+- Model class
+- Training loop
+- Loss & Optimizer
+
+---
+
+### 🟢 Day 44 – Build Neural Network
+- Built ANN from scratch using PyTorch
+- Binary Classification
+- Multi-layer network
+- BCELoss
+- Accuracy evaluation
+
+---
+
+### 🟢 Day 45 – Deep Learning Assignment
+- ✔ Implemented neural network on real dataset
+- ✔ Improved performance with tuning
+
+--- 
+
+### 🟢 Day 46 – CNN Basics
+- Convolution Layer
+- Padding
+- Stride
+- Pooling
+- Feature Maps
+
+---
+
+### 🟢 Day 47 – Image Processing
+- OpenCV basics
+- Image reading & resizing
+- Color conversion
+- Edge detection
+- Thresholding
+- Histogram plottin
+
+---
+
+### 🟢 Day 48 – Transfer Learning
+- Pretrained models
+- ResNet / VGG
+- Feature extraction
+- Fine-tunin
+
+---
+
+### 🟢 Day 49 – Image Classifier
+- Dogs vs Cats classifier
+- Binary classification
+- BCELoss
+- CNN architecture
+- Training optimizatio
+
+---
+
+### 🟢 Day 50 – Computer Vision Mini Project
+- ✔ YOLOv8 object detection
+- ✔ Face Recognition System
+- ✔ Multi-face detection
+
+---
+
 ## ✅ Status
 🚧 Internship in Progress  
 📈 Updating daily with new tasks and projects
