@@ -49,7 +49,7 @@ while True:
         
         length = math.hypot(x2 - x1, y2 - y1)
         
-        vol = np.interp(length, [20, 100], [min_vol, max_vol])
+        vol = np.interp(length, [30, 200], [min_vol, max_vol])
         volBar = np.interp(length, [20, 100], [400, 150])
         volPer = np.interp(length, [20, 100], [0, 100])
         # print(length, vol)
