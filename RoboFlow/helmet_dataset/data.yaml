@@ -1,6 +1,0 @@
-
-train: /mnt/data/helmet_yolo/train/images
-val: /mnt/data/helmet_yolo/valid/images
-
-nc: 2
-names: ['helmet', 'no-helmet']
