@@ -447,18 +447,24 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 ---
 
 #### 🟢 Day 52 - Text Preprocessing
-- Tokenization
-- Stemming vs Lemmatization
-- Stopwords
-- POS tagging
 - NER (Named Entity Recognition)
 - Lowercasing
 - Removing punctuation
 - Removing stopwords
+- Tokenization
 - Stemming (PorterStemmer)
 - Lemmatization (WordNetLemmatizer)
 - Handling emojis & special characters
 - Text normalization
+- POS tagging
+
+---
+
+### 🟢 Day 53 - TF-IDF
+- Corpus
+- Vocabulary
+- Document
+- Word
 
 ---
 
