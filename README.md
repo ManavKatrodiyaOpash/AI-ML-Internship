@@ -425,9 +425,28 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 ---
 
 ### 🟢 Day 50 – Computer Vision Mini Project
-- ✔ YOLOv8 object detection
-- ✔ Face Recognition System
-- ✔ Multi-face detection
+- YOLOv8 Object Detection
+- Face Recognition System
+- Multi-face detection
+- Hand Tracking Volume Control System
+- Person Counting System
+- RoboFlow Projects :- 
+  - Helmet Detection System
+  - Licence Plate Detection System
+
+---
+
+### 🟢 Day 51 - NLP Basics
+- Tokenization
+- Stopwords
+- Stemming
+- Lemmatization
+- POS
+- NER
+
+---
+
+#### 🟢 Day 52 - Text Preprocessing
 
 ---
 
