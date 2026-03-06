@@ -447,7 +447,6 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 ---
 
 #### 🟢 Day 52 - Text Preprocessing
-- NER (Named Entity Recognition)
 - Lowercasing
 - Removing punctuation
 - Removing stopwords
@@ -457,6 +456,7 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Handling emojis & special characters
 - Text normalization
 - POS tagging
+- NER (Named Entity Recognition)
 
 ---
 
@@ -465,6 +465,7 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Vocabulary
 - Document
 - Word
+- TF-IDF (Term Frequency - Inverse Document Frequency)
 - TfidfVectorizer
 - Bag of Words
 - N-grams (Unigram, Bigram, Trigram, N-gram)
