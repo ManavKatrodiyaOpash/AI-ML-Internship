@@ -465,6 +465,9 @@ This repository documents my **AI & Machine Learning Internship**, organized **d
 - Vocabulary
 - Document
 - Word
+- TfidfVectorizer
+- Bag of Words
+- N-grams (Unigram, Bigram, Trigram, N-gram)
 
 ---
 
