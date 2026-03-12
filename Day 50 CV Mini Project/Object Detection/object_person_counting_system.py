@@ -43,6 +43,8 @@ labels_and_colors = {
     "truck" : get_color(),
     "traffic light" : get_color(),
     "umbrella" : get_color(),
+    "cell phone" : get_color(),
+    "donut" : get_color(),
 }
 
 for video in videos:

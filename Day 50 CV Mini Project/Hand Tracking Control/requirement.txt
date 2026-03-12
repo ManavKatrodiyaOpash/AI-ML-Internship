@@ -1,5 +1,0 @@
-pycaw
-mediapipe==0.10.5
-opencv-contrib-python
-opencv-python
-numpy
