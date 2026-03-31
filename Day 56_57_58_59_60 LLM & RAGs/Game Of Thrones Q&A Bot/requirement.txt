@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+faiss-cpu
+pypdf
+python-dotenv
+streamlit
+sentence-transformers
+transformers
+torch
+
+# use python 3.11 #

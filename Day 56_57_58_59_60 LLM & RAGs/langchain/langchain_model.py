@@ -14,8 +14,8 @@ llm = HuggingFacePipeline.from_model_id(
 
 model = ChatHuggingFace(llm=llm)
 
-response = model.invoke("What is the capital of France?")
-print(response.content)
+# response = model.invoke("What is the capital of France?")
+# print(response.content)
 
 def que_ans(question):
     response = model.invoke(question)
