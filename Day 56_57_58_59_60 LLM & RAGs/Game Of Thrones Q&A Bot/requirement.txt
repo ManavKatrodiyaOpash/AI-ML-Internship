@@ -2,6 +2,8 @@ langchain
 langchain-community
 langchain-core
 langchain-text-splitters
+langchain-groq
+langchain-huggingface
 faiss-cpu
 pypdf
 python-dotenv
@@ -10,4 +12,4 @@ sentence-transformers
 transformers
 torch
 
-# use python 3.11 #
+# Python 3.11 recommended #
