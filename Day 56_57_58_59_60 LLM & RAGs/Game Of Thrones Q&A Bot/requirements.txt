@@ -3,8 +3,11 @@ langchain-community
 langchain-core
 langchain-text-splitters
 langchain-groq
+langchain-openai
+langchain-gemini
 langchain-huggingface
 faiss-cpu
+faiss-gpu-cu12
 pypdf
 python-dotenv
 streamlit

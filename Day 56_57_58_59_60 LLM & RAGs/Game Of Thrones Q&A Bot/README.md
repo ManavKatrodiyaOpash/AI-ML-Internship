@@ -24,13 +24,12 @@ books/
 ### Step 2 — Add your API key
 Edit `.env` and paste your key (Any API key will work):
 ```
-{Company_Name}_API_KEY=your_{Comapny_Name}API_key_here
+{Company_Name}_API_KEY=your_API_key_here
 ```
 Example :-
 ```
-GROQ_API_KEY=mk-123abc456def # I have Used This #
-GEMINI_API_KEY=mk-123abc456def
-OPENAI_API_KEY=mk-123abc456def
+GEMINI_API_KEY=your_GEMINI_API_key_here
+OPENAI_API_KEY=your_OPENAI_API_key_here
 ```
 ---
 
@@ -69,5 +68,4 @@ streamlit run app.py
 | Embedding model | all-MiniLM-L6-v2 (load) vs bge-large (index) | bge-large-en for BOTH |
 | Prompt | Basic | Appendix-aware, book-labeled |
 | Source display | None | Shows which book answered |
-| Footer | None | "Made by Manav Katrodiya" |
 | Clear chat | None | ✅ Button added |
