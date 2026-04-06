@@ -1,0 +1,12 @@
+streamlit
+python-dotenv
+langchain
+langchain_community
+youtube-transcript-api
+langchain_huggingface
+langchain_groq
+langchain_openai
+langchain_gemini
+langchain_core
+
+# Use Python 3.11 for better stability #
