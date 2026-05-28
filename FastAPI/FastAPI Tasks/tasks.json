@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "title": "Learn FastAPI",
+        "description": "Practice CRUD operations",
+        "completed": false,
+        "priority": "High"
+    }
+]
